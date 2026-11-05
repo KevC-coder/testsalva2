@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b2027">
+  <meta name="description" content="Examen interactivo de estudio TESALVA, 8 módulos y 80 preguntas basadas en el manual de octubre de 2017.">
+  <title>TESALVA · Aula de práctica</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside id="sidebar" class="sidebar" aria-label="Módulos de estudio">
+      <a class="brand" href="#inicio" id="logo"><span class="brandmark">✳</span><span><b>TESALVA</b><small>AULA DE PRÁCTICA</small></span></a>
+      <div class="side-title">CONTENIDO DEL CURSO</div>
+      <nav id="modulesNav" class="modules-nav"></nav>
+      <div class="side-bottom"><div class="side-tip"><span class="tipicon">↗</span><b>Aprende a tu ritmo</b><p>Responde, revisa tus errores y vuelve a intentarlo.</p></div><span class="source-note">Manual TESALVA · El Salvador · 2017</span></div>
+    </aside>
+    <div class="main-area">
+      <header class="topbar"><button class="mobile-menu" id="menuToggle" aria-label="Mostrar módulos">☰</button><div class="breadcrumb"><span>Academia</span><span class="slash">/</span><b id="breadcrumbName">Resumen</b></div><div class="top-actions"><span class="status-dot"></span><span>Modo estudio</span><button class="icon-btn" id="resetProgress" title="Borrar progreso y respuestas guardadas" aria-label="Reiniciar progreso">↺</button></div></header>
+      <main id="view" tabindex="-1"></main>
+      <footer>Basado exclusivamente en el manual «Taller de habilidades para estabilización y transporte del neonato en El Salvador — TESALVA» (octubre de 2017). Material de autoevaluación no oficial; no reemplaza protocolos clínicos vigentes ni supervisión profesional.</footer>
+    </div>
+  </div>
+  <script src="questions.js"></script><script src="app.js"></script>
+</body>
+</html>
