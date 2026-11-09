@@ -1,37 +1,27 @@
-# TESALVA · Aula de práctica
+# TESALVA · Aula de práctica v3.0
 
-Web estática de autoevaluación basada en **Taller de habilidades para estabilización y transporte del neonato en El Salvador — TESALVA** (Ministerio de Salud / ISSS, octubre de 2017).
+Web estática basada en el manual **Taller de habilidades para estabilización y transporte del neonato en El Salvador — TESALVA** (2017).
 
-## Contenido
+## Banco de preguntas
 
-- 8 módulos, **128 preguntas** en dos niveles: **Básico** (80, 10 por módulo) y **Avanzado** (48, 6 por módulo), con 4 opciones por pregunta.
-- Nivel avanzado con escenarios de aplicación, interpretación de tablas y razonamiento basado en el documento.
-- Progreso y calificaciones independientes por nivel, con migración automática de resultados de la versión anterior.
-- Envío y calificación del módulo, revisión de aciertos y errores con explicación y página de referencia.
-- Repetición y práctica de preguntas falladas.
-- Guardado local de progreso mediante `localStorage` (no se envían respuestas a un servidor).
-- Diseño responsive, sin framework ni backend.
+**240 preguntas: 8 módulos × 30 preguntas**, divididas en **10 básicas, 10 intermedias y 10 avanzadas por módulo**. Cada pregunta presenta cuatro opciones, respuesta correcta, explicación y referencia a la página del manual.
 
-## GitHub Pages
+El nivel básico conserva las 80 preguntas de v1. El nivel avanzado conserva las 48 preguntas de v2 y las amplía con 32 preguntas, hasta un total de 80. Se añade el nivel intermedio con 80 preguntas nuevas.
 
-1. Crea un repositorio en GitHub, por ejemplo `tesalva-examen`.
-2. Sube **los archivos de esta carpeta** a la raíz del repositorio (`index.html`, `styles.css`, `app.js`, `questions.js`, `questions.json` y este README).
-3. Abre **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**, rama `main` y carpeta `/(root)`; guarda.
-5. Abre la URL publicada por GitHub Pages.
+Incluye resultados y puntuaciones por nivel y módulo, respuestas y avance guardados en `localStorage`, repaso de errores y posibilidad de repetir evaluaciones. Los IDs anteriores se conservan para no perder progreso al actualizar desde v2.
 
-También puedes ejecutar `index.html` directamente sin servidor, ya que el banco de preguntas se carga desde `questions.js`. La fuente `DM Sans`/`Outfit` requiere internet, pero existe tipografía de reserva del sistema.
+## Instalar en GitHub Pages
 
-## Editar preguntas
+1. Sube todos los archivos de esta carpeta a la raíz del repositorio de GitHub.
+2. En **Settings → Pages**, selecciona **Deploy from a branch**, rama `main`, carpeta `/(root)`.
+3. Abre la URL publicada por GitHub.
 
-Edita los objetos dentro de `questions.js` (variable `window.TESALVA_DATA`). Cada pregunta incluye `id`, `module` (0 a 7), `difficulty` (`basic` o `advanced`), `question`, `options` (4 textos), `answer` (índice 0 a 3), `page` y `explanation`. Si editas `questions.json` también, mantenlo sincronizado con `questions.js`.
+No requiere dependencias, compilación ni backend. Para actualizar desde v2, reemplaza los archivos conservando el origen del sitio para mantener los datos del navegador.
 
-## Nota importante
+## Edición
 
-**Herramienta educativa no oficial.** La fuente original es de **2017**. Preguntas, rangos y procedimientos reflejan ese documento y no sustituyen guías, protocolos o formación clínica vigentes. El banco de preguntas se elaboró para repaso y no es una reproducción de los instrumentos oficiales de evaluación.
+`questions.json` es la versión editable. `questions.js` contiene el mismo contenido para uso directo desde `index.html` incluso sin servidor. Los cambios deben reflejarse en ambos archivos. La clave de progreso es `tesalva-aula-v1` y se mantiene para la compatibilidad.
 
-## Actualización desde la primera versión
+## Precaución
 
-Reemplaza los archivos del repositorio por los de este ZIP (conservando la raíz del proyecto). El almacenamiento del navegador preserva los intentos del nivel básico de la versión anterior; las 48 preguntas avanzadas se evalúan por separado.
-
-Para generar `questions.js` a partir de `questions.json`, utiliza un script propio o sincroniza ambas estructuras manualmente. `questions.json` es una copia editable; la web usa `questions.js` directamente.
+Autoevaluación educativa **no oficial** basada en un manual de **2017**. Las cifras, criterios y procedimientos no deben utilizarse para tomar decisiones clínicas actuales sin validar los protocolos vigentes y supervisión profesional.

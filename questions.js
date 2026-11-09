@@ -1,1 +1,3662 @@
-window.TESALVA_DATA = {"modules":[{"id":0,"title":"Planificación del transporte neonatal","description":"Organización, coordinación, equipo y traslado","from":12,"to":21},{"id":1,"title":"Termorregulación","description":"Pérdida de calor, prevención e incubadoras","from":22,"to":29},{"id":2,"title":"Estabilidad hemodinámica","description":"Choque, perfusión y monitoreo","from":30,"to":39},{"id":3,"title":"Soporte ventilatorio","description":"Dificultad respiratoria y vía aérea","from":40,"to":52},{"id":4,"title":"Azúcar (glucosa)","description":"Vigilancia y control de la glucemia","from":53,"to":58},{"id":5,"title":"Laboratorio","description":"Sepsis, hemograma y estudios","from":59,"to":71},{"id":6,"title":"Valoraciones especiales","description":"Patologías quirúrgicas y condiciones especiales","from":72,"to":82},{"id":7,"title":"Apoyo emocional y ética","description":"Familia, comunicación y trato digno","from":83,"to":85}],"questions":[{"id":"m1-01","module":0,"question":"¿Cuál es un principio señalado para el personal responsable del traslado neonatal?","options":["Improvisación individual","Omisión de registros","Trabajo en equipo","Traslado sin coordinación"],"answer":2,"page":12,"explanation":"El documento enumera trabajo en equipo, responsabilidad, liderazgo, honestidad y transparencia.","difficulty":"basic"},{"id":"m1-02","module":0,"question":"¿Cuál es el objetivo central del transporte neonatal?","options":["Reducir el tiempo sin importar el estado clínico","Trasladar al neonato de manera segura y continuar su cuidado","Evitar comunicar al hospital receptor","Sustituir la estabilización por rapidez"],"answer":1,"page":12,"explanation":"Debe realizarse eficazmente y manteniendo la atención antes y durante el traslado.","difficulty":"basic"},{"id":"m1-03","module":0,"question":"¿Cómo se denomina el traslado que se realiza dentro del mismo establecimiento?","options":["Interhospitalario","Extrainstitucional","Domiciliario","Intrahospitalario"],"answer":3,"page":13,"explanation":"El documento define el traslado intrahospitalario como el que ocurre dentro del mismo establecimiento.","difficulty":"basic"},{"id":"m1-04","module":0,"question":"¿Cómo se denomina un traslado entre distintos centros de atención?","options":["Interhospitalario","Intrahospitalario","Ambulatorio sin referencia","Electivo domiciliario"],"answer":0,"page":15,"explanation":"El traslado interhospitalario se realiza de un centro de atención a otro.","difficulty":"basic"},{"id":"m1-05","module":0,"question":"¿Qué distingue a un traslado urgente según el manual?","options":["El neonato está estable y puede esperar indefinidamente","Se realiza solo para un estudio de rutina","El neonato está crítico y requiere atención especializada","No necesita estabilización previa"],"answer":2,"page":16,"explanation":"El traslado urgente corresponde a un paciente crítico que demanda atención especializada.","difficulty":"basic"},{"id":"m1-06","module":0,"question":"¿Quién dirige las acciones y el plan de manejo antes del traslado?","options":["Solo el conductor","El médico responsable","El familiar acompañante","El personal administrativo"],"answer":1,"page":16,"explanation":"Entre las funciones del médico están liderar al equipo y dirigir la estabilización.","difficulty":"basic"},{"id":"m1-07","module":0,"question":"¿Qué documento debe llenarse para registrar los datos del traslado?","options":["Certificado de vacunación únicamente","Comprobante de pago","Formulario de alta voluntaria","Hoja de Transporte Neonatal / TESALVA"],"answer":3,"page":12,"explanation":"El manual pide el llenado correcto de la hoja de transporte neonatal.","difficulty":"basic"},{"id":"m1-08","module":0,"question":"¿Cuál es una función del conductor de la ambulancia?","options":["Conocer las rutas y elegir un acceso adecuado al hospital","Prescribir medicamentos","Determinar la ventilación mecánica","Interpretar gasometrías"],"answer":0,"page":17,"explanation":"El conductor debe conocer la localización y las rutas de acceso a los hospitales.","difficulty":"basic"},{"id":"m1-09","module":0,"question":"Según los parámetros de referencia del manual, ¿cuál es la frecuencia cardíaca buscada antes del traslado?","options":["60 a 90 latidos por minuto","180 a 240 latidos por minuto","120 a 160 latidos por minuto","30 a 50 latidos por minuto"],"answer":2,"page":19,"explanation":"Los parámetros para la estabilización incluyen frecuencia cardíaca de 120–160 lpm.","difficulty":"basic"},{"id":"m1-10","module":0,"question":"¿Qué debe hacerse con el centro receptor antes del transporte?","options":["Llegar sin aviso para ahorrar tiempo","Coordinar la referencia y comunicar el estado del paciente","Enviar solo un mensaje al finalizar","Omitir datos de las condiciones clínicas"],"answer":1,"page":19,"explanation":"Se pide coordinar con el hospital receptor y proporcionar información pertinente.","difficulty":"basic"},{"id":"m2-01","module":1,"question":"¿Qué temperatura rectal o axilar se considera normal en el neonato según este módulo?","options":["33 °C a 34 °C","36.5 °C a 37.5 °C","38.5 °C a 39.5 °C","30 °C a 32 °C"],"answer":1,"page":22,"explanation":"El módulo indica un rango normal de 36.5–37.5 °C.","difficulty":"basic"},{"id":"m2-02","module":1,"question":"¿Qué mecanismo de pérdida de calor ocurre al colocar al bebé sobre una superficie fría?","options":["Convección","Evaporación","Radiación","Conducción"],"answer":3,"page":24,"explanation":"La conducción transfiere calor entre superficies en contacto.","difficulty":"basic"},{"id":"m2-03","module":1,"question":"¿Qué mecanismo explica el enfriamiento debido a corrientes de aire?","options":["Convección","Conducción","Radiación","Metabolismo basal"],"answer":0,"page":25,"explanation":"La convección es la pérdida hacia el aire circundante en movimiento.","difficulty":"basic"},{"id":"m2-04","module":1,"question":"¿Qué mecanismo de pérdida de calor se asocia al líquido que se evapora de la piel?","options":["Conducción","Radiación","Evaporación","Contracción muscular"],"answer":2,"page":25,"explanation":"La evaporación ocurre al pasar el líquido a vapor.","difficulty":"basic"},{"id":"m2-05","module":1,"question":"¿Qué mecanismo se relaciona con paredes o ventanas frías sin contacto directo?","options":["Conducción","Radiación","Evaporación","Oxidación"],"answer":1,"page":26,"explanation":"La radiación permite la transferencia de calor hacia superficies más frías sin contacto.","difficulty":"basic"},{"id":"m2-06","module":1,"question":"¿Cuál es la temperatura programada de incubadora para un recién nacido menor de 1500 g según la tabla?","options":["30 °C a 31 °C","38 °C a 40 °C","33 °C a 34 °C","36 °C a 37 °C"],"answer":3,"page":26,"explanation":"La tabla 2 señala 36–37 °C para menos de 1500 gramos.","difficulty":"basic"},{"id":"m2-07","module":1,"question":"¿Qué debe evitarse durante el calentamiento del recién nacido?","options":["Sobrecalentar al neonato","Medir la temperatura","Revisar el estado clínico","Precalentar la incubadora"],"answer":0,"page":27,"explanation":"Se recomienda calentamiento controlado y vigilancia para evitar hipertermia.","difficulty":"basic"},{"id":"m2-08","module":1,"question":"¿Con qué frecuencia propone controlar la temperatura durante el transporte?","options":["Una vez al día","Solo al llegar al destino","Cada 30 minutos","Cada 12 horas"],"answer":2,"page":28,"explanation":"El manual indica evaluar la temperatura cada 30 minutos durante el transporte.","difficulty":"basic"},{"id":"m2-09","module":1,"question":"¿Qué elemento recomienda usar para reducir la pérdida de calor de la cabeza?","options":["Compresa fría","Gorro","Ventilador externo","Alcohol evaporado sobre cuero cabelludo"],"answer":1,"page":25,"explanation":"El uso de gorro limita la pérdida de calor por la cabeza.","difficulty":"basic"},{"id":"m2-10","module":1,"question":"¿Cuál es la conducta indicada si la temperatura desciende por debajo de 36.5 °C durante el traslado?","options":["Apagar la incubadora","Destapar completamente al neonato","Suspender la monitorización","Tomar medidas de calentamiento según el equipo disponible"],"answer":3,"page":28,"explanation":"El material indica medidas de protección y calentamiento ante una temperatura baja.","difficulty":"basic"},{"id":"m3-01","module":2,"question":"¿Cómo se define el choque en el módulo?","options":["Elevación aislada de la temperatura","Exceso de oxígeno sin repercusión","Aumento fisiológico de la glucosa","Hipoperfusión o hipoxia tisular sistémica por flujo sanguíneo insuficiente"],"answer":3,"page":30,"explanation":"El choque se define por insuficiencia de aporte para las demandas metabólicas de los tejidos.","difficulty":"basic"},{"id":"m3-02","module":2,"question":"¿Cuál de los siguientes es un tipo de choque descrito?","options":["Hipovolémico","Alérgico cutáneo aislado","Neurológico transitorio","Hipertérmico simple"],"answer":0,"page":31,"explanation":"El texto clasifica el choque en hipovolémico, cardiogénico y séptico.","difficulty":"basic"},{"id":"m3-03","module":2,"question":"¿Qué dato clínico puede indicar mala perfusión periférica?","options":["Piel cálida con perfusión normal","Llenado capilar inmediato","Llenado capilar mayor de 3 segundos","Pulso periférico normal y fuerte"],"answer":2,"page":32,"explanation":"La tabla clínica incluye llenado capilar superior a 3 segundos.","difficulty":"basic"},{"id":"m3-04","module":2,"question":"¿Qué característica es compatible con choque neonatal?","options":["Ausencia total de cambios hemodinámicos","Pulsos periféricos débiles o imperceptibles","Llenado capilar normal en todos los casos","Temperatura siempre elevada"],"answer":1,"page":32,"explanation":"La evaluación clínica incluye pulsos y perfusión periférica.","difficulty":"basic"},{"id":"m3-05","module":2,"question":"¿Cuál es un factor condicionante del choque hipovolémico?","options":["Exceso de iluminación","Ruidos ambientales","Alimentación en horario","Hemorragia"],"answer":3,"page":32,"explanation":"Entre las causas de choque hipovolémico el manual incluye hemorragia.","difficulty":"basic"},{"id":"m3-06","module":2,"question":"¿Qué parámetro forma parte del seguimiento de la estabilidad hemodinámica?","options":["Frecuencia cardíaca, presión arterial y llenado capilar","Solo peso al nacimiento","Solo longitud corporal","Solo perímetro cefálico"],"answer":0,"page":37,"explanation":"El monitoreo del transporte abarca frecuencia cardíaca, presión arterial y perfusión.","difficulty":"basic"},{"id":"m3-07","module":2,"question":"¿Qué debe hacerse antes de iniciar el transporte de un neonato con signos de choque?","options":["Salir sin acceso venoso ni valoración","Interrumpir toda vigilancia","Iniciar estabilización hemodinámica y coordinar el manejo","Descartar el llenado capilar"],"answer":2,"page":35,"explanation":"El módulo enfatiza estabilizar antes del traslado y mantener vigilancia.","difficulty":"basic"},{"id":"m3-08","module":2,"question":"¿Qué signo se asocia a disminución de perfusión renal?","options":["Lagrimeo aislado","Oliguria o anuria","Estornudos","Hipo transitorio"],"answer":1,"page":33,"explanation":"La tabla de signos clínicos identifica oliguria y anuria como datos renales relevantes.","difficulty":"basic"},{"id":"m3-09","module":2,"question":"¿Qué se recomienda durante el transporte respecto a los accesos venosos?","options":["Retirarlos sin indicación","Evitar revisarlos","Desconectar la infusión para observar","Verificar su permeabilidad y fijación"],"answer":3,"page":37,"explanation":"Se indica revisar permeabilidad y fijación de accesos venosos y periféricos.","difficulty":"basic"},{"id":"m3-10","module":2,"question":"¿Qué debe evitarse según el módulo de estabilidad hemodinámica?","options":["Transportar al neonato hemodinámicamente inestable sin estabilizarlo","Comunicarse con el centro receptor","Registrar constantes","Vigilar infusiones"],"answer":0,"page":36,"explanation":"El material advierte no transportar neonatos hemodinámicamente inestables.","difficulty":"basic"},{"id":"m4-01","module":3,"question":"¿Cuál es una causa respiratoria de dificultad respiratoria neonatal citada en el manual?","options":["Síndrome de aspiración de meconio","Fractura de clavícula aislada","Hipoglucemia asintomática como causa exclusiva","Dermatitis de contacto"],"answer":0,"page":40,"explanation":"La tabla de etiologías incluye el síndrome de aspiración de meconio.","difficulty":"basic"},{"id":"m4-02","module":3,"question":"¿Qué significa CPAP en el contexto del soporte neonatal?","options":["Presión cardíaca arterial periférica","Control pulmonar asistido de presión","Presión positiva continua en la vía aérea","Catéter periférico de acceso pulmonar"],"answer":2,"page":41,"explanation":"El manual enumera CPAP como alternativa no invasiva de soporte respiratorio.","difficulty":"basic"},{"id":"m4-03","module":3,"question":"¿Qué hallazgo puede indicar síndrome de fuga aérea?","options":["Hipoglucemia aislada","Neumotórax","Otitis externa","Hiperbilirrubinemia fisiológica"],"answer":1,"page":41,"explanation":"Se explica el neumotórax como presencia de aire fuera del espacio pulmonar normal.","difficulty":"basic"},{"id":"m4-04","module":3,"question":"¿Qué prueba contribuye a estudiar la dificultad respiratoria y el estado ácido-base?","options":["Examen de agudeza visual","Audiometría","Prueba cutánea de alergia","Gasometría sanguínea"],"answer":3,"page":42,"explanation":"El módulo incluye la interpretación de gases arteriales y capilares.","difficulty":"basic"},{"id":"m4-05","module":3,"question":"¿Qué rango de pH arterial normal presenta la tabla de gasometría?","options":["7.30 a 7.45","6.80 a 7.00","7.80 a 8.10","6.00 a 6.50"],"answer":0,"page":42,"explanation":"La tabla 8 muestra pH arterial de 7.30–7.45.","difficulty":"basic"},{"id":"m4-06","module":3,"question":"¿Qué instrumento permite vigilar la saturación periférica de oxígeno?","options":["Báscula neonatal","Glucómetro","Oxímetro de pulso","Cinta métrica"],"answer":2,"page":43,"explanation":"El equipo de soporte ventilatorio incluye oxímetro de pulso y sensores.","difficulty":"basic"},{"id":"m4-07","module":3,"question":"¿Qué debe valorarse en un neonato con dificultad respiratoria durante el traslado?","options":["Solo color del cabello","Frecuencia respiratoria, esfuerzo y saturación de oxígeno","Únicamente talla","Solo edad de la madre"],"answer":1,"page":49,"explanation":"La tabla 9 señala frecuencia respiratoria, esfuerzo y saturación de oxígeno.","difficulty":"basic"},{"id":"m4-08","module":3,"question":"¿Qué actuación indica el manual ante sospecha de neumotórax durante el transporte?","options":["No considerar su existencia","Suspender toda monitorización","Esperar hasta el alta del paciente","Valorar y atender la fuga aérea según la gravedad antes del traslado"],"answer":3,"page":47,"explanation":"Se describen maniobras de evaluación y drenaje de neumotórax cuando están indicadas.","difficulty":"basic"},{"id":"m4-09","module":3,"question":"¿Qué signo puede apoyar la necesidad de soporte ventilatorio?","options":["Apnea persistente","Respiración normal y sin esfuerzo","Buena saturación sin apoyo","Ausencia de signos respiratorios"],"answer":0,"page":45,"explanation":"La apnea persistente figura entre criterios clínicos de intervención.","difficulty":"basic"},{"id":"m4-10","module":3,"question":"¿Cuál es una recomendación general del transporte de un neonato con insuficiencia respiratoria?","options":["Trasladarlo sin comprobar el equipo","No registrar saturación","Asegurar la vía aérea y el soporte necesario antes de salir","Omitir la evaluación del tubo si está intubado"],"answer":2,"page":48,"explanation":"La conservación de la vía aérea y la verificación del soporte son fundamentales.","difficulty":"basic"},{"id":"m5-01","module":4,"question":"¿Qué condición es especialmente importante vigilar en neonatos de madres diabéticas?","options":["Hipoacusia aislada","Luxación de cadera","Hipoglucemia","Defecto refractivo"],"answer":2,"page":53,"explanation":"El documento identifica al hijo de madre diabética entre quienes requieren vigilancia de glucosa.","difficulty":"basic"},{"id":"m5-02","module":4,"question":"¿Qué herramienta permite una medición rápida de glucosa al lado del paciente?","options":["Oxímetro","Hemoglucotest o glucómetro","Electrocardiógrafo","Tensiómetro"],"answer":1,"page":54,"explanation":"Se describe el hemoglucotest para medición rápida de glucosa.","difficulty":"basic"},{"id":"m5-03","module":4,"question":"¿Qué signo es compatible con hipoglucemia neonatal según la tabla?","options":["Prurito aislado","Epistaxis aislada","Acné neonatal","Temblores"],"answer":3,"page":55,"explanation":"Entre los signos neurológicos figuran temblor, irritabilidad, hipotonía y convulsiones.","difficulty":"basic"},{"id":"m5-04","module":4,"question":"¿Qué signo cardiorrespiratorio puede acompañar a la hipoglucemia?","options":["Apnea","Estornudo aislado","Rinitis alérgica","Ronquido habitual sin otros signos"],"answer":0,"page":55,"explanation":"La tabla de signos y síntomas incluye apnea en el apartado cardiorrespiratorio.","difficulty":"basic"},{"id":"m5-05","module":4,"question":"¿Cuál de los siguientes neonatos aparece como grupo de riesgo de hipoglucemia?","options":["Neonato a término sin factores de riesgo como único grupo","Adolescente","Prematuro","Adulto joven"],"answer":2,"page":53,"explanation":"Los prematuros figuran como población de riesgo.","difficulty":"basic"},{"id":"m5-06","module":4,"question":"¿Qué criterio de glucosa periférica usa el resumen para avisar al equipo antes de trasladar?","options":["Mayor de 200 mg/dl","Menor de 50 mg/dl","Exactamente 100 mg/dl","Entre 90 y 110 mg/dl"],"answer":1,"page":57,"explanation":"El resumen recomienda atención y verificación ante glucosa periférica menor de 50 mg/dl.","difficulty":"basic"},{"id":"m5-07","module":4,"question":"¿Cuándo recomienda el texto medir glucosa a los neonatos con factores de riesgo?","options":["A los 6 meses","Únicamente antes del alta","Solo cuando cumplan un año","En los primeros 30 minutos posteriores al nacimiento"],"answer":3,"page":57,"explanation":"Se solicita medición temprana en los primeros 30 minutos.","difficulty":"basic"},{"id":"m5-08","module":4,"question":"¿Qué acción se pide durante el traslado respecto a la glucosa?","options":["Registrar las mediciones en la hoja de transporte","Evitar toda medición","Suspender la vigilancia al salir","Descartar los valores obtenidos"],"answer":0,"page":57,"explanation":"El módulo señala vigilancia y registro de la glucemia durante el transporte.","difficulty":"basic"},{"id":"m5-09","module":4,"question":"¿Qué síntoma general figura en la tabla de hipoglucemia?","options":["Edema unilateral de tobillo","Dolor lumbar verbalizado","Llanto débil y agudo","Visión borrosa reportada"],"answer":2,"page":55,"explanation":"Los signos generales incluyen llanto débil y agudo, pobre succión e hipotermia.","difficulty":"basic"},{"id":"m5-10","module":4,"question":"¿Qué recomienda el manual cuando se detecta glucosa alta por encima del umbral descrito?","options":["Administrar tratamiento sin comunicar","Contactar al hospital receptor para indicaciones","No documentar el resultado","Ignorar el hallazgo"],"answer":1,"page":56,"explanation":"Para hiperglucemia se solicita llamar al hospital receptor y seguir indicaciones.","difficulty":"basic"},{"id":"m6-01","module":5,"question":"¿Qué es la sepsis neonatal según el documento?","options":["Una alteración exclusivamente genética","Una situación infecciosa por proliferación de microorganismos en el torrente sanguíneo","Un trastorno únicamente nutricional","Una lesión mecánica aislada"],"answer":1,"page":59,"explanation":"El texto la describe como un proceso infeccioso por bacterias, hongos o virus.","difficulty":"basic"},{"id":"m6-02","module":5,"question":"¿En qué periodo suele manifestarse la sepsis temprana según la clasificación del manual?","options":["Solo después del primer año","Únicamente al alta","Solo entre los 6 y 12 meses","En los primeros 3 a 7 días"],"answer":3,"page":59,"explanation":"La clasificación señala la aparición durante los primeros 3 a 7 días.","difficulty":"basic"},{"id":"m6-03","module":5,"question":"¿Cuál es un factor predisponente de sepsis neonatal?","options":["Prematuridad e inmadurez de las defensas","Vacunación registrada","Edad materna como único factor invariable","Contacto piel con piel seguro como única causa"],"answer":0,"page":59,"explanation":"La tabla 12 destaca inmadurez inmunitaria y factores perinatales.","difficulty":"basic"},{"id":"m6-04","module":5,"question":"¿Cuál de estos microorganismos aparece como agente bacteriano de sepsis neonatal?","options":["Virus de influenza como bacteria","Candida albicans como bacteria","Escherichia coli","Aspergillus como bacteria"],"answer":2,"page":60,"explanation":"La tabla de agentes etiológicos enumera E. coli en bacterias.","difficulty":"basic"},{"id":"m6-05","module":5,"question":"¿Cuál es una manifestación respiratoria posible de sepsis neonatal?","options":["Visión doble","Quejido o apnea","Tinnitus aislado","Dolor de rodilla"],"answer":1,"page":61,"explanation":"La tabla 14 incluye quejido, aleteo nasal, retracciones, taquipnea, cianosis y apnea.","difficulty":"basic"},{"id":"m6-06","module":5,"question":"¿Qué prueba aparece entre los estudios directos de sepsis?","options":["Electroencefalograma como confirmación universal","Espirometría de ejercicio","Prueba de esfuerzo","Hemocultivo"],"answer":3,"page":62,"explanation":"Las pruebas directas enumeradas incluyen hemocultivo, urocultivo y estudio de LCR.","difficulty":"basic"},{"id":"m6-07","module":5,"question":"¿Cuál es el rango de plaquetas normal indicado en la tabla de laboratorio?","options":["150,000 a 350,000/mm³","10,000 a 20,000/mm³","500 a 1,000/mm³","800,000 a 1,000,000/mm³"],"answer":0,"page":62,"explanation":"La tabla 15 indica 150,000–350,000/mm³.","difficulty":"basic"},{"id":"m6-08","module":5,"question":"¿Qué representa el índice de banda en el análisis del hemograma?","options":["Relación de plaquetas con hematocrito","Relación de glucosa con sodio","Relación de neutrófilos inmaduros respecto al total considerado","Relación de frecuencia respiratoria con cardíaca"],"answer":2,"page":65,"explanation":"El índice de banda considera neutrófilos segmentados, bandas y otras formas inmaduras.","difficulty":"basic"},{"id":"m6-09","module":5,"question":"¿Qué valor del índice de banda se señala como altamente sugestivo de sepsis?","options":["Menor de 0.01","Mayor de 0.20","Exactamente 1.00 en todos los casos","Solo 0.05"],"answer":1,"page":66,"explanation":"La tabla de interpretación asocia >0.20 a sospecha importante de sepsis.","difficulty":"basic"},{"id":"m6-10","module":5,"question":"¿Qué recuerda el manual al interpretar estudios ante sospecha de sepsis?","options":["Un leucograma normal excluye todos los casos","No interesa la clínica","Los antecedentes maternos deben omitirse","La historia materna es importante y no todos presentan leucograma anormal"],"answer":3,"page":71,"explanation":"La página 71 destaca el valor de la historia materna y las limitaciones del leucograma.","difficulty":"basic"},{"id":"m7-01","module":6,"question":"¿Qué caracteriza a la gastrosquisis descrita en el manual?","options":["Obstrucción nasal aislada","Defecto del tabique interauricular","Aumento exclusivo de glucosa","Defecto de pared abdominal, usualmente a la derecha del cordón umbilical"],"answer":3,"page":72,"explanation":"La gastrosquisis es un defecto de pared abdominal con exteriorización de asas.","difficulty":"basic"},{"id":"m7-02","module":6,"question":"¿Cuál es una prioridad inicial para un neonato con gastrosquisis?","options":["Proteger las vísceras expuestas y prevenir pérdida de calor y líquidos","Dejar las vísceras al aire sin protección","Alimentar inmediatamente por vía oral","Evitar toda valoración médica"],"answer":0,"page":72,"explanation":"Las acciones del módulo incluyen protección intestinal y estabilización.","difficulty":"basic"},{"id":"m7-03","module":6,"question":"¿Qué describe el término onfalocele?","options":["Ausencia total de bronquios","Aumento aislado de presión arterial","Defecto de pared abdominal en línea media con vísceras cubiertas por una membrana","Infección limitada al oído"],"answer":2,"page":73,"explanation":"El texto lo describe como defecto de pared en línea media que contiene vísceras.","difficulty":"basic"},{"id":"m7-04","module":6,"question":"¿Qué procedimiento se indica en la preparación del paciente con onfalocele?","options":["Administrar alimentación enteral libre de inmediato","Colocar sonda orogástrica para descompresión cuando corresponda","Retirar la cubierta del defecto deliberadamente","Omitir la protección térmica"],"answer":1,"page":73,"explanation":"Se describe la descompresión y el manejo de las vísceras y líquidos.","difficulty":"basic"},{"id":"m7-05","module":6,"question":"¿Qué es la mielomeningocele según el módulo?","options":["Inflamación exclusiva de la piel","Malformación aislada del oído","Defecto únicamente cardíaco","Defecto del cierre del tubo neural con exposición de estructuras neurales"],"answer":3,"page":75,"explanation":"El texto explica un defecto del cierre del tubo neural con exposición de tejidos.","difficulty":"basic"},{"id":"m7-06","module":6,"question":"¿Qué posición se recomienda para proteger una lesión de mielomeningocele?","options":["Decúbito ventral","Decúbito sobre el saco lesionado","Sentado sin soporte","Sobre la espalda presionando la lesión"],"answer":0,"page":76,"explanation":"Se recomienda posición ventral para evitar presión directa sobre la lesión.","difficulty":"basic"},{"id":"m7-07","module":6,"question":"¿Qué debe evitarse al movilizar un neonato con mielomeningocele?","options":["Mantener cuidado de la lesión","Vigilar la temperatura","Lesionar o comprimir el saco","Registrar el estado del paciente"],"answer":2,"page":76,"explanation":"La manipulación debe proteger el defecto durante el transporte.","difficulty":"basic"},{"id":"m7-08","module":6,"question":"¿Por qué requiere especial vigilancia el recién nacido extremadamente prematuro?","options":["Porque no necesita control térmico","Por la inmadurez de múltiples sistemas y riesgo de complicaciones","Porque nunca precisa ayuda ventilatoria","Porque siempre tolera traslados sin monitorización"],"answer":1,"page":77,"explanation":"El módulo destaca riesgos de pérdida de calor, problemas respiratorios y otras complicaciones.","difficulty":"basic"},{"id":"m7-09","module":6,"question":"¿Qué grupo de problemas aborda el módulo al hablar de cardiopatías congénitas?","options":["Solo lesiones musculares deportivas","Únicamente infecciones del oído","Solo alergias alimentarias","Alteraciones estructurales cardíacas presentes desde el nacimiento"],"answer":3,"page":78,"explanation":"Se describen cardiopatías congénitas y consideraciones durante el transporte.","difficulty":"basic"},{"id":"m7-10","module":6,"question":"¿Qué signo puede sugerir cardiopatía congénita según el manual?","options":["Cianosis central o dificultad respiratoria","Buen estado sin signos como prueba definitiva","Aumento de talla como único signo","Cambios en el color del cabello"],"answer":0,"page":79,"explanation":"Entre los signos de alerta se incluyen cianosis y dificultad respiratoria.","difficulty":"basic"},{"id":"m8-01","module":7,"question":"¿Qué actitud recomienda el módulo durante la atención a la familia del recién nacido?","options":["Escucha respetuosa y comunicación empática","Ocultar información de manera sistemática","Ignorar las inquietudes","Evitar cualquier contacto"],"answer":0,"page":83,"explanation":"Se destacan sentimientos familiares, empatía y comunicación.","difficulty":"basic"},{"id":"m8-02","module":7,"question":"¿Cuál de estos factores puede influir en la respuesta emocional de los padres?","options":["Únicamente el clima del hospital","Solo la hora del día","Separación del recién nacido y su familia","Exclusivamente el color de la incubadora"],"answer":2,"page":83,"explanation":"La separación y el estrés por la enfermedad afectan la experiencia familiar.","difficulty":"basic"},{"id":"m8-03","module":7,"question":"¿Qué principio ético aparece entre las consideraciones descritas?","options":["Priorizar trámites sobre el paciente","Respeto por la vida y la dignidad del neonato","Excluir siempre a la familia","Negar toda información"],"answer":1,"page":84,"explanation":"El módulo expone principios éticos en la atención neonatal.","difficulty":"basic"},{"id":"m8-04","module":7,"question":"¿Qué debe informarse a los padres antes del traslado según las recomendaciones?","options":["Solo el número de ambulancia","Únicamente la hora de salida","Nada hasta concluir el transporte","El estado del bebé, los procedimientos y el motivo del traslado"],"answer":3,"page":84,"explanation":"Se indica explicar estado, procedimientos y la necesidad de referencia.","difficulty":"basic"},{"id":"m8-05","module":7,"question":"¿Qué recomienda el manual sobre el contacto con el recién nacido antes del traslado cuando es posible?","options":["Facilitarlo de forma segura y respetuosa","Impedirlo sin motivo","Permitirlo solo al final del ingreso","Ignorar las necesidades familiares"],"answer":0,"page":84,"explanation":"Se propone favorecer la cercanía y la vinculación cuando la condición lo permite.","difficulty":"basic"},{"id":"m8-06","module":7,"question":"¿Qué trato debe ofrecerse a la familia en una situación crítica?","options":["Coercitivo y hostil","Indiferente","Claro, respetuoso y sin juicios","Con información contradictoria deliberada"],"answer":2,"page":83,"explanation":"El apoyo emocional contempla acompañar y responder inquietudes.","difficulty":"basic"},{"id":"m8-07","module":7,"question":"¿Qué principio se relaciona con decisiones informadas y respeto por las personas?","options":["Improvisación","Autonomía","Ocultamiento","Desinterés"],"answer":1,"page":84,"explanation":"Las consideraciones éticas incluyen autonomía y participación en decisiones.","difficulty":"basic"},{"id":"m8-08","module":7,"question":"¿Qué debe hacer el personal si la condición del neonato dificulta la presencia de los padres?","options":["Evitar toda explicación","Interrumpir la coordinación","Negar la situación clínica","Explicar las razones y mantener comunicación"],"answer":3,"page":85,"explanation":"Se enfatiza informar y orientar a los familiares según el contexto clínico.","difficulty":"basic"},{"id":"m8-09","module":7,"question":"¿Qué aspecto no debe descuidarse durante la atención y el transporte?","options":["El cuidado gentil y el confort del neonato","Solo la rapidez del vehículo","La ausencia de comunicación","La omisión de medidas de bienestar"],"answer":0,"page":85,"explanation":"El resumen recuerda brindar cuidados gentiles al neonato.","difficulty":"basic"},{"id":"m8-10","module":7,"question":"¿Cuál es la finalidad del apoyo emocional además de estabilizar al paciente?","options":["Sustituir la atención clínica","Evitar toda participación familiar","Acompañar a padres o cuidadores y favorecer su comprensión","Aumentar la ansiedad"],"answer":2,"page":85,"explanation":"El material incorpora las necesidades emocionales de la familia al cuidado integral.","difficulty":"basic"},{"id":"m1-A01","module":0,"difficulty":"advanced","question":"Se solicita trasladar un neonato estabilizado, pero todavía no se dispone de la documentación clínica. ¿Qué coordinación señala el manual si el traslado lo realizará el SEM?","options":["Iniciar sin documentación y completarla al arribo","Llamar al equipo del SEM y coordinar con el médico de cabecera para establecer de nuevo el tiempo posible del traslado","Suspender indefinidamente el traslado, aunque el caso sea urgente","Derivar la coordinación exclusivamente al conductor"],"answer":1,"explanation":"El manual pide coordinación con el equipo del SEM y con el médico de cabecera cuando la documentación está lista o debe completarse.","page":13},{"id":"m1-A02","module":0,"difficulty":"advanced","question":"Un neonato se encuentra estable y necesita realizar un estudio de alta complejidad en otro hospital, con retorno previsto. Según el manual, ¿cómo se clasifica su traslado?","options":["Urgente","Programado","Intra-hospitalario","Transporte de nacimiento a sala de neonatología"],"answer":1,"explanation":"Los traslados programados incluyen estudios de alta complejidad y procedimientos en pacientes estables.","page":15},{"id":"m1-A03","module":0,"difficulty":"advanced","question":"En un traslado urgente de un neonato crítico, ¿cuál es el principio de secuencia descrito?","options":["Trasladar primero y estabilizar únicamente en destino","Estabilizarlo y referirlo inmediatamente a un centro de mayor complejidad","Esperar al siguiente turno de transporte por comodidad","Trasladar solo si el vehículo no necesita equipamiento"],"answer":1,"explanation":"El manual caracteriza el traslado urgente por estado crítico y atención especializada, con estabilización y referencia inmediata.","page":16},{"id":"m1-A04","module":0,"difficulty":"advanced","question":"Durante el recorrido se detecta que el equipo de transporte tiene problemas de oxígeno. ¿Quién debe verificar previamente la incubadora caliente, limpia y el tanque de oxígeno lleno?","options":["El conductor exclusivamente","La enfermera o TEM","El familiar del neonato","El personal de admisión del hospital receptor"],"answer":1,"explanation":"En las funciones de enfermería o TEM figura comprobar incubadora, oxígeno y funcionamiento del equipo.","page":17},{"id":"m1-A05","module":0,"difficulty":"advanced","question":"Un neonato estabilizado requiere soporte ventilatorio continuo y va a ser recibido por el hospital de referencia. ¿Qué paso forma parte de la activación del traslado?","options":["Omitir la Hoja TESALVA por tratarse de urgencia","Confirmar la disponibilidad del hospital receptor y coordinar recursos, equipo e insumos","Enviar al neonato sin comunicación para ahorrar tiempo","Esperar la llegada para informar edad gestacional y diagnóstico"],"answer":1,"explanation":"La activación implica comunicación con el receptor, coordinación del transporte y registro de condiciones en la Hoja TESALVA.","page":19},{"id":"m1-A06","module":0,"difficulty":"advanced","question":"Un equipo revisa la estabilidad antes de salir. ¿Qué combinación coincide con los objetivos TESALVA descritos en el manual para el neonato a término?","options":["FC 80–100/min, temperatura 35 °C, saturación 70 %","FC 120–160/min, temperatura axilar 36.5–37.5 °C y saturación 88–95 %","FC 170–200/min, temperatura 38.5 °C y saturación 100 % obligatoria","FC 90–110/min, temperatura 34 °C y glucosa 20 mg/dl"],"answer":1,"explanation":"Los parámetros de estabilización previos al transporte se presentan en las páginas 18 y 19; estos valores pertenecen a la edición 2017.","page":18},{"id":"m2-A01","module":1,"difficulty":"advanced","question":"Un prematuro pierde calor al colocarlo sobre una báscula fría. ¿Qué mecanismo de pérdida térmica describe la situación?","options":["Radiación","Evaporación","Conducción","Convección"],"answer":2,"explanation":"La conducción es la transferencia de calor entre cuerpos en contacto directo, como una báscula fría.","page":24},{"id":"m2-A02","module":1,"difficulty":"advanced","question":"Un recién nacido permanece mojado tras el nacimiento. ¿Qué mecanismo predomina y qué actuación preventiva señala el manual?","options":["Radiación; apagar el calentador","Evaporación; secar rápidamente y sustituir los campos húmedos","Conducción; abrir puertas y ventanas","Convección; colocar objetos fríos sobre la cuna"],"answer":1,"explanation":"La evaporación enfría cuando se transforma el agua de piel o mucosas en vapor; el manual indica secar y retirar ropa húmeda.","page":25},{"id":"m2-A03","module":1,"difficulty":"advanced","question":"Se prepara la incubadora para trasladar un neonato de 1,300 gramos. ¿Qué rango de temperatura programada corresponde a su peso en la tabla TESALVA?","options":["33–34 °C","35–36 °C","36–37 °C","38–39 °C"],"answer":2,"explanation":"La tabla 2 establece 36–37 °C para pesos menores de 1,500 g.","page":26},{"id":"m2-A04","module":1,"difficulty":"advanced","question":"Durante el recalentamiento un neonato presenta taquicardia, hipotensión y mayor dificultad respiratoria. ¿Cómo debe interpretarse este conjunto según el manual?","options":["Signos esperables de estabilización completa","Signos de deterioro durante un recalentamiento demasiado rápido","Confirmación de que ya no necesita control térmico","Evidencia aislada de hiperglucemia"],"answer":1,"explanation":"Esos hallazgos están entre los signos de deterioro por recalentamiento rápido; el texto recomienda vigilancia estrecha.","page":27},{"id":"m2-A05","module":1,"difficulty":"advanced","question":"Durante el transporte la temperatura del neonato baja de 36.5 °C. ¿Cuál es la conducta de seguimiento indicada en el manual?","options":["Interrumpir el registro hasta el arribo","Tomar medidas para aumentar la temperatura dentro de la incubadora y registrar la medición","Retirar todas las coberturas de inmediato","Esperar 4 horas sin intervención"],"answer":1,"explanation":"El manual indica evaluar la temperatura durante el transporte, ajustar el entorno de incubadora y documentar valores.","page":28},{"id":"m2-A06","module":1,"difficulty":"advanced","question":"Una temperatura central de 31.5 °C se registra en un neonato. ¿Cómo clasifica el manual este hallazgo?","options":["Normotermia","Hipotermia leve","Hipotermia moderada","Hipotermia severa"],"answer":3,"explanation":"La clasificación descrita define hipotermia severa con temperatura central menor de 32 °C.","page":22},{"id":"m3-A01","module":2,"difficulty":"advanced","question":"Un neonato presenta piel fría, perfusión periférica lenta y llenado capilar de 5 segundos. ¿Qué interpretación corresponde a los signos clínicos del manual?","options":["Perfusión adecuada","Dato compatible con alteración de perfusión y posible choque","Evidencia de estabilidad hemodinámica sin seguimiento","Solo una medición relacionada con temperatura de incubadora"],"answer":1,"explanation":"El llenado capilar mayor de 3 segundos y la piel fría son signos clínicos de mala perfusión.","page":32},{"id":"m3-A02","module":2,"difficulty":"advanced","question":"Un neonato a término de 2 días, peso de nacimiento de 2,800 gramos, tiene una presión arterial media de 34 mmHg. ¿Qué indica la tabla 6 del manual?","options":["La tabla establece menos de 40 mmHg como referencia de hipotensión en ese grupo","La tabla establece menos de 20 mmHg","La tabla no contiene neonatos de ese peso","La hipotensión se determina exclusivamente con la frecuencia cardíaca"],"answer":0,"explanation":"En la tabla 6, para >2,500 g y 1–3 días, el punto de corte consignado es TAM <40 mmHg; se cita el manual de 2017, no guías actuales.","page":33},{"id":"m3-A03","module":2,"difficulty":"advanced","question":"Una gasometría en un neonato muestra pH 7.20. De acuerdo con el recuadro de interpretación TESALVA, ¿qué afirmación es correcta?","options":["Está por encima del rango normal","Es un pH normal sin posible compromiso","Indica acidosis y puede asociarse a hipotensión y requerir seguimiento","Diagnostica por sí solo la causa exacta del choque"],"answer":2,"explanation":"El recuadro cita pH menor de 7.25 como peligroso, especialmente si se combina con pobre perfusión o taquicardia/hipotensión.","page":34},{"id":"m3-A04","module":2,"difficulty":"advanced","question":"Tras una primera intervención por mala perfusión persisten signos clínicos y no hay mejoría. Según la secuencia indicada para el transporte, ¿qué recurso se prioriza?","options":["Continuar sin controles hasta el destino","Revalorar clínicamente y comunicar/ajustar el manejo conforme al hospital de referencia","Registrar solo el peso al nacer","Suspender la comunicación con el centro receptor"],"answer":1,"explanation":"El protocolo incluye reevaluar signos de perfusión y coordinar indicaciones con el centro de referencia si no hay respuesta.","page":35},{"id":"m3-A05","module":2,"difficulty":"advanced","question":"Un prematuro de menos de 30 semanas presenta mala perfusión. ¿Qué precaución especial describe el manual respecto de la expansión de volumen?","options":["Administrar múltiples cargas sin reevaluación","Evitar cargas innecesarias por riesgo de hemorragia intracraneana, conducto arterioso permeable y daño pulmonar","Usar siempre cargas sin considerar la edad gestacional","Omitir los controles de signos de estabilidad"],"answer":1,"explanation":"En prematuros <30 semanas se aconseja cautela con expansores debido a riesgos que el manual identifica.","page":36},{"id":"m3-A06","module":2,"difficulty":"advanced","question":"En la vigilancia hemodinámica durante el traslado, ¿qué grupo de parámetros debe reevaluarse?","options":["Solo la talla y la edad gestacional","Frecuencia cardíaca, presión arterial, perfusión/llenado capilar y permeabilidad de accesos","Solo la temperatura ambiental del vehículo","Solo la cantidad de insumos disponibles"],"answer":1,"explanation":"El apartado de monitoreo menciona registrar FC, perfusión, presión arterial, llenado capilar y verificar accesos e infusiones.","page":37},{"id":"m4-A01","module":3,"difficulty":"advanced","question":"Una gasometría arterial neonatal muestra pH 7.34, pCO₂ 58 mmHg y pO₂ 47 mmHg. ¿Cuál es la interpretación apoyada por la tabla 8?","options":["Todos están dentro de los rangos arteriales consignados","pCO₂ mayor al rango de 35–45 y pO₂ menor al rango de 50–80 del manual","La tabla solo contempla muestras venosas","El pH permite ignorar por completo los otros parámetros"],"answer":1,"explanation":"La tabla 8 muestra pH arterial 7.30–7.45, pCO₂ 35–45 mmHg y pO₂ 50–80 mmHg.","page":42},{"id":"m4-A02","module":3,"difficulty":"advanced","question":"Tras iniciar oxígeno por campana cefálica, un neonato mantiene signos de dificultad respiratoria moderada y escala de Silverman 5. ¿Qué escalamiento figura en el manual?","options":["Retirar todo apoyo respiratorio","Considerar CPAP nasal con PEEP inicial de 4–5 cm H₂O, de acuerdo con la valoración","Trasladarlo sin comprobar saturación","Suspender la evaluación hasta terminar el viaje"],"answer":1,"explanation":"En dificultad moderada (Silverman 4–6) el manual contempla CPAP nasal e indica PEEP inicial de 4–5 cm H₂O.","page":45},{"id":"m4-A03","module":3,"difficulty":"advanced","question":"Pese a CPAP nasal, se mantiene dificultad severa con Silverman mayor de 6. ¿Qué conducta corresponde al esquema del manual?","options":["No modificar el soporte hasta el destino","Considerar intubación orotraqueal, con monitorización y reevaluación","Utilizar exclusivamente una bolsa de agua caliente","Retirar la monitorización cardiopulmonar"],"answer":1,"explanation":"Para dificultad severa persistente con Silverman >6, el texto describe intubación orotraqueal y seguimiento.","page":46},{"id":"m4-A04","module":3,"difficulty":"advanced","question":"La radiografía y clínica indican neumotórax con dificultad respiratoria en un neonato antes de su traslado. ¿Qué precaución esencial destaca TESALVA?","options":["Trasladar sin abordar el neumotórax","Considerar drenaje antes del transporte y vigilancia estrecha","Administrar alimentación enteral inmediatamente","Aumentar la presión de ventilación sin reevaluar"],"answer":1,"explanation":"El manual insiste en no trasladar con dificultad respiratoria por neumotórax sin drenaje previo.","page":47},{"id":"m4-A05","module":3,"difficulty":"advanced","question":"Un paciente intubado requiere transporte y aparece deterioro respiratorio súbito. ¿Qué acrónimo propone el manual para revisar causas corregibles?","options":["RUTA","DOPE: desplazamiento, obstrucción, neumotórax y equipo","ABCDE solamente para logística","TES sin evaluación de tubo"],"answer":1,"explanation":"El apartado de mantenimiento de la vía aérea propone DOPE para evaluar problemas de tubo o equipo.","page":48},{"id":"m4-A06","module":3,"difficulty":"advanced","question":"Durante el traslado se documenta la ventilación del neonato. ¿Qué conjunto de parámetros aparece en la tabla 9?","options":["Peso materno, grupo sanguíneo y longitud","Temperatura, FC, FR, esfuerzo respiratorio, saturación y tipo de soporte ventilatorio","Solo edad de madre y fecha de parto","Únicamente número de ambulancia y kilometraje"],"answer":1,"explanation":"La tabla 9 reúne signos vitales, color/saturación y necesidad de soporte ventilatorio.","page":49},{"id":"m5-A01","module":4,"difficulty":"advanced","question":"Un neonato pequeño para la edad gestacional inicia el transporte. ¿Cuál es la razón para vigilar especialmente la glucosa según el manual?","options":["Sus reservas son ilimitadas","Las reservas de glucógeno pueden ser inadecuadas y aumentan el riesgo de hipoglucemia","Todos los neonatos pequeños tienen hiperglucemia obligatoria","La glucosa nunca cambia durante el traslado"],"answer":1,"explanation":"El apartado de azúcar identifica reservas inadecuadas de glucógeno como factor de hipoglucemia.","page":53},{"id":"m5-A02","module":4,"difficulty":"advanced","question":"Un neonato prematuro con sepsis y glucosa descendente presenta temblor, letargia y apnea. ¿Qué relación clínica plantea el manual?","options":["Son incompatibles con alteración glucémica","Son manifestaciones que pueden acompañar hipoglucemia y requieren control de glucosa","Demuestran que la glucosa está elevada de forma segura","Descartan compromiso respiratorio"],"answer":1,"explanation":"La tabla de signos incluye temblor, letargia y apnea, y sepsis es un factor asociado a utilización aumentada de glucosa.","page":54},{"id":"m5-A03","module":4,"difficulty":"advanced","question":"Una medición de 165 mg/dl se obtiene en un neonato. Según el apartado TESALVA, ¿qué condición debe considerarse?","options":["Hiperglucemia según el umbral descrito, con evaluación clínica","Hipoglucemia grave por definición","Valor siempre normal independientemente de la evolución","Una lectura que permite ignorar las mediciones posteriores"],"answer":0,"explanation":"El texto considera hiperglucemia las mediciones centrales por encima de 120–125 mg/dl o periféricas mayores de 145–150 mg/dl, según contexto.","page":55},{"id":"m5-A04","module":4,"difficulty":"advanced","question":"Un neonato tiene hemoglucotest de 38 mg/dl sin síntomas y está siendo preparado para traslado. ¿Qué clase de escenario detalla el documento?","options":["Neonato asintomático con medición menor de 40 mg/dl, para el que describe un esquema específico de corrección y verificación","Neonato con glucosa superior a 150 mg/dl","Neonato cuya glucosa no necesita registrarse","Condición exclusiva de hipertermia"],"answer":0,"explanation":"El manual diferencia rutas para mediciones menores de 50 mg/dl y, en asintomáticos, menores de 40 mg/dl.","page":56},{"id":"m5-A05","module":4,"difficulty":"advanced","question":"Durante el transporte, la hemoglucotest se mantiene por debajo de 50 mg/dl pese al seguimiento. ¿Qué enfatiza el manual?","options":["No registrar la nueva medición","Vigilar glucosa, ajustar el aporte según el esquema y documentar las mediciones","Suspender todas las comprobaciones","Retirar el acceso venoso antes de llegar"],"answer":1,"explanation":"La sección de conservación insiste en mediciones seriadas, ajustes según valores y registro en la hoja de transporte.","page":57},{"id":"m5-A06","module":4,"difficulty":"advanced","question":"Un neonato presenta glucosa periférica de 160 mg/dl antes de salir. ¿Cuál es el paso de coordinación expresamente descrito en el resumen TESALVA?","options":["Dar salida sin avisar","Llamar al hospital receptor para recibir indicaciones sobre el manejo","Tratarla como un valor de 40 mg/dl","Ignorar el dato porque solo importa el peso"],"answer":1,"explanation":"El resumen indica contactar con el hospital receptor cuando la glucosa periférica supera 150 mg/dl.","page":57},{"id":"m6-A01","module":5,"difficulty":"advanced","question":"Un neonato manifiesta signos de infección después de las primeras 72 horas de hospitalización y existe asociación con procedimientos del entorno sanitario. ¿Qué categoría describe mejor el manual?","options":["Sepsis temprana","Sepsis nosocomial","Hipotermia aislada","Sepsis fetal exclusivamente intrauterina"],"answer":1,"explanation":"La sepsis nosocomial se atribuye a microorganismos del entorno sanitario y se describe en pacientes con 72 h o menos de haber sido egresados o según hospitalización.","page":59},{"id":"m6-A02","module":5,"difficulty":"advanced","question":"Un neonato tiene catéter intravascular, ventilación y hospitalización prolongada. ¿Cómo clasifica la tabla 12 estos elementos?","options":["Factores que eliminan la probabilidad de infección","Factores predisponentes relacionados con procedimientos invasivos y exposición posnatal","Pruebas diagnósticas definitivas de infección","Solo factores genéticos no modificables"],"answer":1,"explanation":"La tabla recoge catéteres, alimentación parenteral, drenajes y hospitalización prolongada entre factores predisponentes.","page":60},{"id":"m6-A03","module":5,"difficulty":"advanced","question":"Un prematuro presenta letargia, apnea, piel marmórea y distensión abdominal. Según la tabla de signos clínicos, ¿qué conclusión es más apropiada?","options":["El cuadro no puede corresponder a sepsis por ser multisistémico","La sepsis neonatal puede manifestarse con signos neurológicos, respiratorios, cardiovasculares y digestivos","Solo los síntomas digestivos son relevantes","El diagnóstico se confirma exclusivamente por temperatura"],"answer":1,"explanation":"La tabla 14 organiza signos de sepsis en varios sistemas y remarca que la clínica es variable e inespecífica.","page":61},{"id":"m6-A04","module":5,"difficulty":"advanced","question":"Se revisa el hemograma de un neonato de 48 horas. ¿Cuál es el rango de plaquetas que consigna la tabla 15?","options":["30,000–60,000/mm³","150,000–350,000/mm³","500,000–800,000/mm³","1,000–5,000/mm³"],"answer":1,"explanation":"La tabla 15 consigna plaquetas de 150,000 a 350,000/mm³ para ese grupo.","page":62},{"id":"m6-A05","module":5,"difficulty":"advanced","question":"Un informe registra un conteo absoluto de neutrófilos de 900/mm³ en un neonato de 36 semanas. Según la tabla 16 TESALVA, ¿cómo se interpreta el punto de corte?","options":["Siempre es normal a todas las edades","Es inferior al umbral CAN <1,000 indicado para 28–36 semanas","Solo puede interpretarse con plaquetas","Es el umbral de neonatos menores de 28 semanas"],"answer":1,"explanation":"La tabla 16 utiliza CAN <1,000 para el grupo de 28–36 semanas (con la referencia de la edad posnatal del cuadro).","page":65},{"id":"m6-A06","module":5,"difficulty":"advanced","question":"Un hemograma presenta neutrófilos segmentados 60 %, bandas 10 % y metamielocitos 5 %. ¿Cuál es el índice de bandemia I/T aproximado según el ejemplo del manual?","options":["0.02","0.20","0.75","1.50"],"answer":1,"explanation":"El ejemplo utiliza inmaduros (bandas + metamielocitos) / (segmentados + bandas + metamielocitos): (10+5)/(60+10+5)=0.20.","page":66},{"id":"m7-A01","module":6,"difficulty":"advanced","question":"Un neonato tiene asas intestinales expuestas a través de un defecto paraumbilical derecho, sin saco que las cubra. ¿Cuál es la patología descrita?","options":["Onfalocele","Gastrosquisis","Mielomeningocele","Cardiopatía congénita"],"answer":1,"explanation":"La gastrosquisis se describe como defecto de pared abdominal a la derecha del cordón, con intestinos exteriorizados sin membrana de cobertura.","page":72},{"id":"m7-A02","module":6,"difficulty":"advanced","question":"Durante el traslado de un neonato con gastrosquisis, ¿qué medida de protección concuerda con el manual?","options":["Dejar las asas expuestas al aire","Cubrirlas con material apropiado y prevenir pérdida de calor y líquidos","Administrar nutrición enteral antes de salir","Comprimir las asas contra el abdomen"],"answer":1,"explanation":"En la sección de transporte se indica proteger las asas, evitar distensión y pérdidas térmicas o hídricas.","page":73},{"id":"m7-A03","module":6,"difficulty":"advanced","question":"En un neonato el defecto abdominal está en la línea media y el contenido está cubierto por una membrana. ¿Qué diagnóstico de las valoraciones especiales es más compatible?","options":["Gastrosquisis","Onfalocele","Neumotórax","Sepsis tardía"],"answer":1,"explanation":"El onfalocele se describe como defecto en la línea media con contenido abdominal cubierto por membrana.","page":73},{"id":"m7-A04","module":6,"difficulty":"advanced","question":"Un neonato con atresia esofágica y sospecha de fístula requiere traslado. ¿Qué prevención prioriza el manual?","options":["Alimentación oral frecuente","Mantener aspiración de secreciones de forma continua y evitar alimentación enteral","Colocar al neonato sin vigilancia en decúbito supino prolongado","Eliminar todo contacto con el hospital receptor"],"answer":1,"explanation":"El apartado señala aspiración de secreciones y medidas para reducir aspiración pulmonar en atresia esofágica con o sin fístula.","page":74},{"id":"m7-A05","module":6,"difficulty":"advanced","question":"Un neonato con mielomeningocele es preparado para transporte. ¿Qué posición y protección aparecen en el manual?","options":["Decúbito dorsal con presión directa sobre el defecto","Decúbito ventral y cobertura/protección del defecto para evitar contaminación y traumatismos","Sentarlo sobre la lesión","Cubrirlo solo si se ha roto el saco"],"answer":1,"explanation":"El manual indica mantenerlo en decúbito ventral, proteger la lesión y vigilar integridad del saco.","page":76},{"id":"m7-A06","module":6,"difficulty":"advanced","question":"Un neonato con sospecha de cardiopatía congénita presenta soplo y cianosis central que persiste pese a oxígeno. ¿Qué enfoque corresponde al apartado de transporte?","options":["Descartar enfermedad cardiaca por la cianosis persistente","Reevaluación y vigilancia cardiorrespiratoria, coordinación con centro receptor y traslado estabilizado","No medir tensión arterial","Suspender controles hasta la llegada"],"answer":1,"explanation":"El texto menciona soplo, cianosis central y dificultad respiratoria, con vigilancia hemodinámica y coordinación de traslado.","page":79},{"id":"m8-A01","module":7,"difficulty":"advanced","question":"La familia reacciona con enojo y preguntas repetidas ante un traslado urgente. ¿Cuál es la mejor interpretación según el módulo ético?","options":["La familia está interfiriendo y no debe recibir información","Las emociones son una respuesta posible al estrés y se necesita escucha y comunicación respetuosa","Las preguntas deben posponerse siempre hasta el alta","Solo el conductor puede informar"],"answer":1,"explanation":"El manual reconoce respuestas emocionales diversas y recomienda empatía, comprensión y comunicación.","page":83},{"id":"m8-A02","module":7,"difficulty":"advanced","question":"El neonato requiere traslado y sus padres piden conocer el destino, los procedimientos y quién lo recibirá. ¿Cuál es la conducta descrita?","options":["Evitar explicaciones para disminuir tiempos","Explicar el estado, el motivo del traslado y cómo se realizará, en lenguaje comprensible","Compartir solo información técnica incomprensible","Delegar toda la información al familiar más lejano"],"answer":1,"explanation":"Antes del traslado se solicita informar a responsables sobre el estado del neonato y explicar claramente las condiciones del traslado.","page":84},{"id":"m8-A03","module":7,"difficulty":"advanced","question":"Una madre no puede viajar en la ambulancia. ¿Qué actuación respeta las recomendaciones éticas del manual?","options":["Prohibirle preguntar por el hospital receptor","Explicar el destino y facilitar la comunicación o contacto con el recién nacido dentro de lo posible","Modificar el destino sin informar","Evitar compartir cualquier dato sobre la evolución"],"answer":1,"explanation":"La guía destaca comunicación clara, contacto con el neonato y apoyo durante la separación.","page":84},{"id":"m8-A04","module":7,"difficulty":"advanced","question":"En una situación de alto riesgo, ¿qué factores deben considerarse en la toma de decisiones éticas además del criterio clínico?","options":["Únicamente la rapidez del equipo","Bienestar e interés superior del neonato, información adecuada y participación de los padres o responsables","Solo las preferencias personales del conductor","La reducción de la documentación"],"answer":1,"explanation":"El módulo describe beneficencia, no maleficencia, autonomía, justicia y el interés superior del niño.","page":84},{"id":"m8-A05","module":7,"difficulty":"advanced","question":"Durante el traslado surgen complicaciones. ¿Qué actuación de comunicación es coherente con el módulo de ética?","options":["Ocultar sistemáticamente la evolución","Informar a los responsables del estado, progresos o complicaciones y mantener una comunicación respetuosa","Comunicar solo cuando la familia presenta una queja","Compartir información del neonato con cualquier persona"],"answer":1,"explanation":"El resumen aconseja mantener informados a los padres o responsables sobre la condición y evolución clínica.","page":85},{"id":"m8-A06","module":7,"difficulty":"advanced","question":"Un profesional se concentra en aspectos técnicos y omite cualquier gesto de confort. ¿Qué dimensión señala el manual como esencial durante el transporte?","options":["La calidez y cuidados gentiles al neonato, junto a la estabilización técnica","Eliminar la participación del personal de enfermería","Considerar al neonato únicamente como un procedimiento","No comunicar medidas al equipo"],"answer":0,"explanation":"La sección de recomendaciones durante el traslado pide una atención respetuosa y cuidados gentiles durante la manipulación.","page":85}]};
+window.TESALVA_DATA = {
+  "modules": [
+    {
+      "id": 0,
+      "title": "Planificación del transporte neonatal",
+      "description": "Organización, coordinación, equipo y traslado",
+      "from": 12,
+      "to": 21
+    },
+    {
+      "id": 1,
+      "title": "Termorregulación",
+      "description": "Pérdida de calor, prevención e incubadoras",
+      "from": 22,
+      "to": 29
+    },
+    {
+      "id": 2,
+      "title": "Estabilidad hemodinámica",
+      "description": "Choque, perfusión y monitoreo",
+      "from": 30,
+      "to": 39
+    },
+    {
+      "id": 3,
+      "title": "Soporte ventilatorio",
+      "description": "Dificultad respiratoria y vía aérea",
+      "from": 40,
+      "to": 52
+    },
+    {
+      "id": 4,
+      "title": "Azúcar (glucosa)",
+      "description": "Vigilancia y control de la glucemia",
+      "from": 53,
+      "to": 58
+    },
+    {
+      "id": 5,
+      "title": "Laboratorio",
+      "description": "Sepsis, hemograma y estudios",
+      "from": 59,
+      "to": 71
+    },
+    {
+      "id": 6,
+      "title": "Valoraciones especiales",
+      "description": "Patologías quirúrgicas y condiciones especiales",
+      "from": 72,
+      "to": 82
+    },
+    {
+      "id": 7,
+      "title": "Apoyo emocional y ética",
+      "description": "Familia, comunicación y trato digno",
+      "from": 83,
+      "to": 85
+    }
+  ],
+  "questions": [
+    {
+      "id": "m1-01",
+      "module": 0,
+      "question": "¿Cuál es un principio señalado para el personal responsable del traslado neonatal?",
+      "options": [
+        "Improvisación individual",
+        "Omisión de registros",
+        "Trabajo en equipo",
+        "Traslado sin coordinación"
+      ],
+      "answer": 2,
+      "page": 12,
+      "explanation": "El documento enumera trabajo en equipo, responsabilidad, liderazgo, honestidad y transparencia.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-02",
+      "module": 0,
+      "question": "¿Cuál es el objetivo central del transporte neonatal?",
+      "options": [
+        "Reducir el tiempo sin importar el estado clínico",
+        "Trasladar al neonato de manera segura y continuar su cuidado",
+        "Evitar comunicar al hospital receptor",
+        "Sustituir la estabilización por rapidez"
+      ],
+      "answer": 1,
+      "page": 12,
+      "explanation": "Debe realizarse eficazmente y manteniendo la atención antes y durante el traslado.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-03",
+      "module": 0,
+      "question": "¿Cómo se denomina el traslado que se realiza dentro del mismo establecimiento?",
+      "options": [
+        "Interhospitalario",
+        "Extrainstitucional",
+        "Domiciliario",
+        "Intrahospitalario"
+      ],
+      "answer": 3,
+      "page": 13,
+      "explanation": "El documento define el traslado intrahospitalario como el que ocurre dentro del mismo establecimiento.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-04",
+      "module": 0,
+      "question": "¿Cómo se denomina un traslado entre distintos centros de atención?",
+      "options": [
+        "Interhospitalario",
+        "Intrahospitalario",
+        "Ambulatorio sin referencia",
+        "Electivo domiciliario"
+      ],
+      "answer": 0,
+      "page": 15,
+      "explanation": "El traslado interhospitalario se realiza de un centro de atención a otro.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-05",
+      "module": 0,
+      "question": "¿Qué distingue a un traslado urgente según el manual?",
+      "options": [
+        "El neonato está estable y puede esperar indefinidamente",
+        "Se realiza solo para un estudio de rutina",
+        "El neonato está crítico y requiere atención especializada",
+        "No necesita estabilización previa"
+      ],
+      "answer": 2,
+      "page": 16,
+      "explanation": "El traslado urgente corresponde a un paciente crítico que demanda atención especializada.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-06",
+      "module": 0,
+      "question": "¿Quién dirige las acciones y el plan de manejo antes del traslado?",
+      "options": [
+        "Solo el conductor",
+        "El médico responsable",
+        "El familiar acompañante",
+        "El personal administrativo"
+      ],
+      "answer": 1,
+      "page": 16,
+      "explanation": "Entre las funciones del médico están liderar al equipo y dirigir la estabilización.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-07",
+      "module": 0,
+      "question": "¿Qué documento debe llenarse para registrar los datos del traslado?",
+      "options": [
+        "Certificado de vacunación únicamente",
+        "Comprobante de pago",
+        "Formulario de alta voluntaria",
+        "Hoja de Transporte Neonatal / TESALVA"
+      ],
+      "answer": 3,
+      "page": 12,
+      "explanation": "El manual pide el llenado correcto de la hoja de transporte neonatal.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-08",
+      "module": 0,
+      "question": "¿Cuál es una función del conductor de la ambulancia?",
+      "options": [
+        "Conocer las rutas y elegir un acceso adecuado al hospital",
+        "Prescribir medicamentos",
+        "Determinar la ventilación mecánica",
+        "Interpretar gasometrías"
+      ],
+      "answer": 0,
+      "page": 17,
+      "explanation": "El conductor debe conocer la localización y las rutas de acceso a los hospitales.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-09",
+      "module": 0,
+      "question": "Según los parámetros de referencia del manual, ¿cuál es la frecuencia cardíaca buscada antes del traslado?",
+      "options": [
+        "60 a 90 latidos por minuto",
+        "180 a 240 latidos por minuto",
+        "120 a 160 latidos por minuto",
+        "30 a 50 latidos por minuto"
+      ],
+      "answer": 2,
+      "page": 19,
+      "explanation": "Los parámetros para la estabilización incluyen frecuencia cardíaca de 120–160 lpm.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-10",
+      "module": 0,
+      "question": "¿Qué debe hacerse con el centro receptor antes del transporte?",
+      "options": [
+        "Llegar sin aviso para ahorrar tiempo",
+        "Coordinar la referencia y comunicar el estado del paciente",
+        "Enviar solo un mensaje al finalizar",
+        "Omitir datos de las condiciones clínicas"
+      ],
+      "answer": 1,
+      "page": 19,
+      "explanation": "Se pide coordinar con el hospital receptor y proporcionar información pertinente.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-01",
+      "module": 1,
+      "question": "¿Qué temperatura rectal o axilar se considera normal en el neonato según este módulo?",
+      "options": [
+        "33 °C a 34 °C",
+        "36.5 °C a 37.5 °C",
+        "38.5 °C a 39.5 °C",
+        "30 °C a 32 °C"
+      ],
+      "answer": 1,
+      "page": 22,
+      "explanation": "El módulo indica un rango normal de 36.5–37.5 °C.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-02",
+      "module": 1,
+      "question": "¿Qué mecanismo de pérdida de calor ocurre al colocar al bebé sobre una superficie fría?",
+      "options": [
+        "Convección",
+        "Evaporación",
+        "Radiación",
+        "Conducción"
+      ],
+      "answer": 3,
+      "page": 24,
+      "explanation": "La conducción transfiere calor entre superficies en contacto.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-03",
+      "module": 1,
+      "question": "¿Qué mecanismo explica el enfriamiento debido a corrientes de aire?",
+      "options": [
+        "Convección",
+        "Conducción",
+        "Radiación",
+        "Metabolismo basal"
+      ],
+      "answer": 0,
+      "page": 25,
+      "explanation": "La convección es la pérdida hacia el aire circundante en movimiento.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-04",
+      "module": 1,
+      "question": "¿Qué mecanismo de pérdida de calor se asocia al líquido que se evapora de la piel?",
+      "options": [
+        "Conducción",
+        "Radiación",
+        "Evaporación",
+        "Contracción muscular"
+      ],
+      "answer": 2,
+      "page": 25,
+      "explanation": "La evaporación ocurre al pasar el líquido a vapor.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-05",
+      "module": 1,
+      "question": "¿Qué mecanismo se relaciona con paredes o ventanas frías sin contacto directo?",
+      "options": [
+        "Conducción",
+        "Radiación",
+        "Evaporación",
+        "Oxidación"
+      ],
+      "answer": 1,
+      "page": 26,
+      "explanation": "La radiación permite la transferencia de calor hacia superficies más frías sin contacto.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-06",
+      "module": 1,
+      "question": "¿Cuál es la temperatura programada de incubadora para un recién nacido menor de 1500 g según la tabla?",
+      "options": [
+        "30 °C a 31 °C",
+        "38 °C a 40 °C",
+        "33 °C a 34 °C",
+        "36 °C a 37 °C"
+      ],
+      "answer": 3,
+      "page": 26,
+      "explanation": "La tabla 2 señala 36–37 °C para menos de 1500 gramos.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-07",
+      "module": 1,
+      "question": "¿Qué debe evitarse durante el calentamiento del recién nacido?",
+      "options": [
+        "Sobrecalentar al neonato",
+        "Medir la temperatura",
+        "Revisar el estado clínico",
+        "Precalentar la incubadora"
+      ],
+      "answer": 0,
+      "page": 27,
+      "explanation": "Se recomienda calentamiento controlado y vigilancia para evitar hipertermia.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-08",
+      "module": 1,
+      "question": "¿Con qué frecuencia propone controlar la temperatura durante el transporte?",
+      "options": [
+        "Una vez al día",
+        "Solo al llegar al destino",
+        "Cada 30 minutos",
+        "Cada 12 horas"
+      ],
+      "answer": 2,
+      "page": 28,
+      "explanation": "El manual indica evaluar la temperatura cada 30 minutos durante el transporte.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-09",
+      "module": 1,
+      "question": "¿Qué elemento recomienda usar para reducir la pérdida de calor de la cabeza?",
+      "options": [
+        "Compresa fría",
+        "Gorro",
+        "Ventilador externo",
+        "Alcohol evaporado sobre cuero cabelludo"
+      ],
+      "answer": 1,
+      "page": 25,
+      "explanation": "El uso de gorro limita la pérdida de calor por la cabeza.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m2-10",
+      "module": 1,
+      "question": "¿Cuál es la conducta indicada si la temperatura desciende por debajo de 36.5 °C durante el traslado?",
+      "options": [
+        "Apagar la incubadora",
+        "Destapar completamente al neonato",
+        "Suspender la monitorización",
+        "Tomar medidas de calentamiento según el equipo disponible"
+      ],
+      "answer": 3,
+      "page": 28,
+      "explanation": "El material indica medidas de protección y calentamiento ante una temperatura baja.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-01",
+      "module": 2,
+      "question": "¿Cómo se define el choque en el módulo?",
+      "options": [
+        "Elevación aislada de la temperatura",
+        "Exceso de oxígeno sin repercusión",
+        "Aumento fisiológico de la glucosa",
+        "Hipoperfusión o hipoxia tisular sistémica por flujo sanguíneo insuficiente"
+      ],
+      "answer": 3,
+      "page": 30,
+      "explanation": "El choque se define por insuficiencia de aporte para las demandas metabólicas de los tejidos.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-02",
+      "module": 2,
+      "question": "¿Cuál de los siguientes es un tipo de choque descrito?",
+      "options": [
+        "Hipovolémico",
+        "Alérgico cutáneo aislado",
+        "Neurológico transitorio",
+        "Hipertérmico simple"
+      ],
+      "answer": 0,
+      "page": 31,
+      "explanation": "El texto clasifica el choque en hipovolémico, cardiogénico y séptico.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-03",
+      "module": 2,
+      "question": "¿Qué dato clínico puede indicar mala perfusión periférica?",
+      "options": [
+        "Piel cálida con perfusión normal",
+        "Llenado capilar inmediato",
+        "Llenado capilar mayor de 3 segundos",
+        "Pulso periférico normal y fuerte"
+      ],
+      "answer": 2,
+      "page": 32,
+      "explanation": "La tabla clínica incluye llenado capilar superior a 3 segundos.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-04",
+      "module": 2,
+      "question": "¿Qué característica es compatible con choque neonatal?",
+      "options": [
+        "Ausencia total de cambios hemodinámicos",
+        "Pulsos periféricos débiles o imperceptibles",
+        "Llenado capilar normal en todos los casos",
+        "Temperatura siempre elevada"
+      ],
+      "answer": 1,
+      "page": 32,
+      "explanation": "La evaluación clínica incluye pulsos y perfusión periférica.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-05",
+      "module": 2,
+      "question": "¿Cuál es un factor condicionante del choque hipovolémico?",
+      "options": [
+        "Exceso de iluminación",
+        "Ruidos ambientales",
+        "Alimentación en horario",
+        "Hemorragia"
+      ],
+      "answer": 3,
+      "page": 32,
+      "explanation": "Entre las causas de choque hipovolémico el manual incluye hemorragia.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-06",
+      "module": 2,
+      "question": "¿Qué parámetro forma parte del seguimiento de la estabilidad hemodinámica?",
+      "options": [
+        "Frecuencia cardíaca, presión arterial y llenado capilar",
+        "Solo peso al nacimiento",
+        "Solo longitud corporal",
+        "Solo perímetro cefálico"
+      ],
+      "answer": 0,
+      "page": 37,
+      "explanation": "El monitoreo del transporte abarca frecuencia cardíaca, presión arterial y perfusión.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-07",
+      "module": 2,
+      "question": "¿Qué debe hacerse antes de iniciar el transporte de un neonato con signos de choque?",
+      "options": [
+        "Salir sin acceso venoso ni valoración",
+        "Interrumpir toda vigilancia",
+        "Iniciar estabilización hemodinámica y coordinar el manejo",
+        "Descartar el llenado capilar"
+      ],
+      "answer": 2,
+      "page": 35,
+      "explanation": "El módulo enfatiza estabilizar antes del traslado y mantener vigilancia.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-08",
+      "module": 2,
+      "question": "¿Qué signo se asocia a disminución de perfusión renal?",
+      "options": [
+        "Lagrimeo aislado",
+        "Oliguria o anuria",
+        "Estornudos",
+        "Hipo transitorio"
+      ],
+      "answer": 1,
+      "page": 33,
+      "explanation": "La tabla de signos clínicos identifica oliguria y anuria como datos renales relevantes.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-09",
+      "module": 2,
+      "question": "¿Qué se recomienda durante el transporte respecto a los accesos venosos?",
+      "options": [
+        "Retirarlos sin indicación",
+        "Evitar revisarlos",
+        "Desconectar la infusión para observar",
+        "Verificar su permeabilidad y fijación"
+      ],
+      "answer": 3,
+      "page": 37,
+      "explanation": "Se indica revisar permeabilidad y fijación de accesos venosos y periféricos.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m3-10",
+      "module": 2,
+      "question": "¿Qué debe evitarse según el módulo de estabilidad hemodinámica?",
+      "options": [
+        "Transportar al neonato hemodinámicamente inestable sin estabilizarlo",
+        "Comunicarse con el centro receptor",
+        "Registrar constantes",
+        "Vigilar infusiones"
+      ],
+      "answer": 0,
+      "page": 36,
+      "explanation": "El material advierte no transportar neonatos hemodinámicamente inestables.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-01",
+      "module": 3,
+      "question": "¿Cuál es una causa respiratoria de dificultad respiratoria neonatal citada en el manual?",
+      "options": [
+        "Síndrome de aspiración de meconio",
+        "Fractura de clavícula aislada",
+        "Hipoglucemia asintomática como causa exclusiva",
+        "Dermatitis de contacto"
+      ],
+      "answer": 0,
+      "page": 40,
+      "explanation": "La tabla de etiologías incluye el síndrome de aspiración de meconio.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-02",
+      "module": 3,
+      "question": "¿Qué significa CPAP en el contexto del soporte neonatal?",
+      "options": [
+        "Presión cardíaca arterial periférica",
+        "Control pulmonar asistido de presión",
+        "Presión positiva continua en la vía aérea",
+        "Catéter periférico de acceso pulmonar"
+      ],
+      "answer": 2,
+      "page": 41,
+      "explanation": "El manual enumera CPAP como alternativa no invasiva de soporte respiratorio.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-03",
+      "module": 3,
+      "question": "¿Qué hallazgo puede indicar síndrome de fuga aérea?",
+      "options": [
+        "Hipoglucemia aislada",
+        "Neumotórax",
+        "Otitis externa",
+        "Hiperbilirrubinemia fisiológica"
+      ],
+      "answer": 1,
+      "page": 41,
+      "explanation": "Se explica el neumotórax como presencia de aire fuera del espacio pulmonar normal.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-04",
+      "module": 3,
+      "question": "¿Qué prueba contribuye a estudiar la dificultad respiratoria y el estado ácido-base?",
+      "options": [
+        "Examen de agudeza visual",
+        "Audiometría",
+        "Prueba cutánea de alergia",
+        "Gasometría sanguínea"
+      ],
+      "answer": 3,
+      "page": 42,
+      "explanation": "El módulo incluye la interpretación de gases arteriales y capilares.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-05",
+      "module": 3,
+      "question": "¿Qué rango de pH arterial normal presenta la tabla de gasometría?",
+      "options": [
+        "7.30 a 7.45",
+        "6.80 a 7.00",
+        "7.80 a 8.10",
+        "6.00 a 6.50"
+      ],
+      "answer": 0,
+      "page": 42,
+      "explanation": "La tabla 8 muestra pH arterial de 7.30–7.45.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-06",
+      "module": 3,
+      "question": "¿Qué instrumento permite vigilar la saturación periférica de oxígeno?",
+      "options": [
+        "Báscula neonatal",
+        "Glucómetro",
+        "Oxímetro de pulso",
+        "Cinta métrica"
+      ],
+      "answer": 2,
+      "page": 43,
+      "explanation": "El equipo de soporte ventilatorio incluye oxímetro de pulso y sensores.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-07",
+      "module": 3,
+      "question": "¿Qué debe valorarse en un neonato con dificultad respiratoria durante el traslado?",
+      "options": [
+        "Solo color del cabello",
+        "Frecuencia respiratoria, esfuerzo y saturación de oxígeno",
+        "Únicamente talla",
+        "Solo edad de la madre"
+      ],
+      "answer": 1,
+      "page": 49,
+      "explanation": "La tabla 9 señala frecuencia respiratoria, esfuerzo y saturación de oxígeno.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-08",
+      "module": 3,
+      "question": "¿Qué actuación indica el manual ante sospecha de neumotórax durante el transporte?",
+      "options": [
+        "No considerar su existencia",
+        "Suspender toda monitorización",
+        "Esperar hasta el alta del paciente",
+        "Valorar y atender la fuga aérea según la gravedad antes del traslado"
+      ],
+      "answer": 3,
+      "page": 47,
+      "explanation": "Se describen maniobras de evaluación y drenaje de neumotórax cuando están indicadas.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-09",
+      "module": 3,
+      "question": "¿Qué signo puede apoyar la necesidad de soporte ventilatorio?",
+      "options": [
+        "Apnea persistente",
+        "Respiración normal y sin esfuerzo",
+        "Buena saturación sin apoyo",
+        "Ausencia de signos respiratorios"
+      ],
+      "answer": 0,
+      "page": 45,
+      "explanation": "La apnea persistente figura entre criterios clínicos de intervención.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m4-10",
+      "module": 3,
+      "question": "¿Cuál es una recomendación general del transporte de un neonato con insuficiencia respiratoria?",
+      "options": [
+        "Trasladarlo sin comprobar el equipo",
+        "No registrar saturación",
+        "Asegurar la vía aérea y el soporte necesario antes de salir",
+        "Omitir la evaluación del tubo si está intubado"
+      ],
+      "answer": 2,
+      "page": 48,
+      "explanation": "La conservación de la vía aérea y la verificación del soporte son fundamentales.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-01",
+      "module": 4,
+      "question": "¿Qué condición es especialmente importante vigilar en neonatos de madres diabéticas?",
+      "options": [
+        "Hipoacusia aislada",
+        "Luxación de cadera",
+        "Hipoglucemia",
+        "Defecto refractivo"
+      ],
+      "answer": 2,
+      "page": 53,
+      "explanation": "El documento identifica al hijo de madre diabética entre quienes requieren vigilancia de glucosa.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-02",
+      "module": 4,
+      "question": "¿Qué herramienta permite una medición rápida de glucosa al lado del paciente?",
+      "options": [
+        "Oxímetro",
+        "Hemoglucotest o glucómetro",
+        "Electrocardiógrafo",
+        "Tensiómetro"
+      ],
+      "answer": 1,
+      "page": 54,
+      "explanation": "Se describe el hemoglucotest para medición rápida de glucosa.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-03",
+      "module": 4,
+      "question": "¿Qué signo es compatible con hipoglucemia neonatal según la tabla?",
+      "options": [
+        "Prurito aislado",
+        "Epistaxis aislada",
+        "Acné neonatal",
+        "Temblores"
+      ],
+      "answer": 3,
+      "page": 55,
+      "explanation": "Entre los signos neurológicos figuran temblor, irritabilidad, hipotonía y convulsiones.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-04",
+      "module": 4,
+      "question": "¿Qué signo cardiorrespiratorio puede acompañar a la hipoglucemia?",
+      "options": [
+        "Apnea",
+        "Estornudo aislado",
+        "Rinitis alérgica",
+        "Ronquido habitual sin otros signos"
+      ],
+      "answer": 0,
+      "page": 55,
+      "explanation": "La tabla de signos y síntomas incluye apnea en el apartado cardiorrespiratorio.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-05",
+      "module": 4,
+      "question": "¿Cuál de los siguientes neonatos aparece como grupo de riesgo de hipoglucemia?",
+      "options": [
+        "Neonato a término sin factores de riesgo como único grupo",
+        "Adolescente",
+        "Prematuro",
+        "Adulto joven"
+      ],
+      "answer": 2,
+      "page": 53,
+      "explanation": "Los prematuros figuran como población de riesgo.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-06",
+      "module": 4,
+      "question": "¿Qué criterio de glucosa periférica usa el resumen para avisar al equipo antes de trasladar?",
+      "options": [
+        "Mayor de 200 mg/dl",
+        "Menor de 50 mg/dl",
+        "Exactamente 100 mg/dl",
+        "Entre 90 y 110 mg/dl"
+      ],
+      "answer": 1,
+      "page": 57,
+      "explanation": "El resumen recomienda atención y verificación ante glucosa periférica menor de 50 mg/dl.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-07",
+      "module": 4,
+      "question": "¿Cuándo recomienda el texto medir glucosa a los neonatos con factores de riesgo?",
+      "options": [
+        "A los 6 meses",
+        "Únicamente antes del alta",
+        "Solo cuando cumplan un año",
+        "En los primeros 30 minutos posteriores al nacimiento"
+      ],
+      "answer": 3,
+      "page": 57,
+      "explanation": "Se solicita medición temprana en los primeros 30 minutos.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-08",
+      "module": 4,
+      "question": "¿Qué acción se pide durante el traslado respecto a la glucosa?",
+      "options": [
+        "Registrar las mediciones en la hoja de transporte",
+        "Evitar toda medición",
+        "Suspender la vigilancia al salir",
+        "Descartar los valores obtenidos"
+      ],
+      "answer": 0,
+      "page": 57,
+      "explanation": "El módulo señala vigilancia y registro de la glucemia durante el transporte.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-09",
+      "module": 4,
+      "question": "¿Qué síntoma general figura en la tabla de hipoglucemia?",
+      "options": [
+        "Edema unilateral de tobillo",
+        "Dolor lumbar verbalizado",
+        "Llanto débil y agudo",
+        "Visión borrosa reportada"
+      ],
+      "answer": 2,
+      "page": 55,
+      "explanation": "Los signos generales incluyen llanto débil y agudo, pobre succión e hipotermia.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m5-10",
+      "module": 4,
+      "question": "¿Qué recomienda el manual cuando se detecta glucosa alta por encima del umbral descrito?",
+      "options": [
+        "Administrar tratamiento sin comunicar",
+        "Contactar al hospital receptor para indicaciones",
+        "No documentar el resultado",
+        "Ignorar el hallazgo"
+      ],
+      "answer": 1,
+      "page": 56,
+      "explanation": "Para hiperglucemia se solicita llamar al hospital receptor y seguir indicaciones.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-01",
+      "module": 5,
+      "question": "¿Qué es la sepsis neonatal según el documento?",
+      "options": [
+        "Una alteración exclusivamente genética",
+        "Una situación infecciosa por proliferación de microorganismos en el torrente sanguíneo",
+        "Un trastorno únicamente nutricional",
+        "Una lesión mecánica aislada"
+      ],
+      "answer": 1,
+      "page": 59,
+      "explanation": "El texto la describe como un proceso infeccioso por bacterias, hongos o virus.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-02",
+      "module": 5,
+      "question": "¿En qué periodo suele manifestarse la sepsis temprana según la clasificación del manual?",
+      "options": [
+        "Solo después del primer año",
+        "Únicamente al alta",
+        "Solo entre los 6 y 12 meses",
+        "En los primeros 3 a 7 días"
+      ],
+      "answer": 3,
+      "page": 59,
+      "explanation": "La clasificación señala la aparición durante los primeros 3 a 7 días.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-03",
+      "module": 5,
+      "question": "¿Cuál es un factor predisponente de sepsis neonatal?",
+      "options": [
+        "Prematuridad e inmadurez de las defensas",
+        "Vacunación registrada",
+        "Edad materna como único factor invariable",
+        "Contacto piel con piel seguro como única causa"
+      ],
+      "answer": 0,
+      "page": 59,
+      "explanation": "La tabla 12 destaca inmadurez inmunitaria y factores perinatales.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-04",
+      "module": 5,
+      "question": "¿Cuál de estos microorganismos aparece como agente bacteriano de sepsis neonatal?",
+      "options": [
+        "Virus de influenza como bacteria",
+        "Candida albicans como bacteria",
+        "Escherichia coli",
+        "Aspergillus como bacteria"
+      ],
+      "answer": 2,
+      "page": 60,
+      "explanation": "La tabla de agentes etiológicos enumera E. coli en bacterias.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-05",
+      "module": 5,
+      "question": "¿Cuál es una manifestación respiratoria posible de sepsis neonatal?",
+      "options": [
+        "Visión doble",
+        "Quejido o apnea",
+        "Tinnitus aislado",
+        "Dolor de rodilla"
+      ],
+      "answer": 1,
+      "page": 61,
+      "explanation": "La tabla 14 incluye quejido, aleteo nasal, retracciones, taquipnea, cianosis y apnea.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-06",
+      "module": 5,
+      "question": "¿Qué prueba aparece entre los estudios directos de sepsis?",
+      "options": [
+        "Electroencefalograma como confirmación universal",
+        "Espirometría de ejercicio",
+        "Prueba de esfuerzo",
+        "Hemocultivo"
+      ],
+      "answer": 3,
+      "page": 62,
+      "explanation": "Las pruebas directas enumeradas incluyen hemocultivo, urocultivo y estudio de LCR.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-07",
+      "module": 5,
+      "question": "¿Cuál es el rango de plaquetas normal indicado en la tabla de laboratorio?",
+      "options": [
+        "150,000 a 350,000/mm³",
+        "10,000 a 20,000/mm³",
+        "500 a 1,000/mm³",
+        "800,000 a 1,000,000/mm³"
+      ],
+      "answer": 0,
+      "page": 62,
+      "explanation": "La tabla 15 indica 150,000–350,000/mm³.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-08",
+      "module": 5,
+      "question": "¿Qué representa el índice de banda en el análisis del hemograma?",
+      "options": [
+        "Relación de plaquetas con hematocrito",
+        "Relación de glucosa con sodio",
+        "Relación de neutrófilos inmaduros respecto al total considerado",
+        "Relación de frecuencia respiratoria con cardíaca"
+      ],
+      "answer": 2,
+      "page": 65,
+      "explanation": "El índice de banda considera neutrófilos segmentados, bandas y otras formas inmaduras.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-09",
+      "module": 5,
+      "question": "¿Qué valor del índice de banda se señala como altamente sugestivo de sepsis?",
+      "options": [
+        "Menor de 0.01",
+        "Mayor de 0.20",
+        "Exactamente 1.00 en todos los casos",
+        "Solo 0.05"
+      ],
+      "answer": 1,
+      "page": 66,
+      "explanation": "La tabla de interpretación asocia >0.20 a sospecha importante de sepsis.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m6-10",
+      "module": 5,
+      "question": "¿Qué recuerda el manual al interpretar estudios ante sospecha de sepsis?",
+      "options": [
+        "Un leucograma normal excluye todos los casos",
+        "No interesa la clínica",
+        "Los antecedentes maternos deben omitirse",
+        "La historia materna es importante y no todos presentan leucograma anormal"
+      ],
+      "answer": 3,
+      "page": 71,
+      "explanation": "La página 71 destaca el valor de la historia materna y las limitaciones del leucograma.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-01",
+      "module": 6,
+      "question": "¿Qué caracteriza a la gastrosquisis descrita en el manual?",
+      "options": [
+        "Obstrucción nasal aislada",
+        "Defecto del tabique interauricular",
+        "Aumento exclusivo de glucosa",
+        "Defecto de pared abdominal, usualmente a la derecha del cordón umbilical"
+      ],
+      "answer": 3,
+      "page": 72,
+      "explanation": "La gastrosquisis es un defecto de pared abdominal con exteriorización de asas.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-02",
+      "module": 6,
+      "question": "¿Cuál es una prioridad inicial para un neonato con gastrosquisis?",
+      "options": [
+        "Proteger las vísceras expuestas y prevenir pérdida de calor y líquidos",
+        "Dejar las vísceras al aire sin protección",
+        "Alimentar inmediatamente por vía oral",
+        "Evitar toda valoración médica"
+      ],
+      "answer": 0,
+      "page": 72,
+      "explanation": "Las acciones del módulo incluyen protección intestinal y estabilización.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-03",
+      "module": 6,
+      "question": "¿Qué describe el término onfalocele?",
+      "options": [
+        "Ausencia total de bronquios",
+        "Aumento aislado de presión arterial",
+        "Defecto de pared abdominal en línea media con vísceras cubiertas por una membrana",
+        "Infección limitada al oído"
+      ],
+      "answer": 2,
+      "page": 73,
+      "explanation": "El texto lo describe como defecto de pared en línea media que contiene vísceras.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-04",
+      "module": 6,
+      "question": "¿Qué procedimiento se indica en la preparación del paciente con onfalocele?",
+      "options": [
+        "Administrar alimentación enteral libre de inmediato",
+        "Colocar sonda orogástrica para descompresión cuando corresponda",
+        "Retirar la cubierta del defecto deliberadamente",
+        "Omitir la protección térmica"
+      ],
+      "answer": 1,
+      "page": 73,
+      "explanation": "Se describe la descompresión y el manejo de las vísceras y líquidos.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-05",
+      "module": 6,
+      "question": "¿Qué es la mielomeningocele según el módulo?",
+      "options": [
+        "Inflamación exclusiva de la piel",
+        "Malformación aislada del oído",
+        "Defecto únicamente cardíaco",
+        "Defecto del cierre del tubo neural con exposición de estructuras neurales"
+      ],
+      "answer": 3,
+      "page": 75,
+      "explanation": "El texto explica un defecto del cierre del tubo neural con exposición de tejidos.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-06",
+      "module": 6,
+      "question": "¿Qué posición se recomienda para proteger una lesión de mielomeningocele?",
+      "options": [
+        "Decúbito ventral",
+        "Decúbito sobre el saco lesionado",
+        "Sentado sin soporte",
+        "Sobre la espalda presionando la lesión"
+      ],
+      "answer": 0,
+      "page": 76,
+      "explanation": "Se recomienda posición ventral para evitar presión directa sobre la lesión.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-07",
+      "module": 6,
+      "question": "¿Qué debe evitarse al movilizar un neonato con mielomeningocele?",
+      "options": [
+        "Mantener cuidado de la lesión",
+        "Vigilar la temperatura",
+        "Lesionar o comprimir el saco",
+        "Registrar el estado del paciente"
+      ],
+      "answer": 2,
+      "page": 76,
+      "explanation": "La manipulación debe proteger el defecto durante el transporte.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-08",
+      "module": 6,
+      "question": "¿Por qué requiere especial vigilancia el recién nacido extremadamente prematuro?",
+      "options": [
+        "Porque no necesita control térmico",
+        "Por la inmadurez de múltiples sistemas y riesgo de complicaciones",
+        "Porque nunca precisa ayuda ventilatoria",
+        "Porque siempre tolera traslados sin monitorización"
+      ],
+      "answer": 1,
+      "page": 77,
+      "explanation": "El módulo destaca riesgos de pérdida de calor, problemas respiratorios y otras complicaciones.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-09",
+      "module": 6,
+      "question": "¿Qué grupo de problemas aborda el módulo al hablar de cardiopatías congénitas?",
+      "options": [
+        "Solo lesiones musculares deportivas",
+        "Únicamente infecciones del oído",
+        "Solo alergias alimentarias",
+        "Alteraciones estructurales cardíacas presentes desde el nacimiento"
+      ],
+      "answer": 3,
+      "page": 78,
+      "explanation": "Se describen cardiopatías congénitas y consideraciones durante el transporte.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m7-10",
+      "module": 6,
+      "question": "¿Qué signo puede sugerir cardiopatía congénita según el manual?",
+      "options": [
+        "Cianosis central o dificultad respiratoria",
+        "Buen estado sin signos como prueba definitiva",
+        "Aumento de talla como único signo",
+        "Cambios en el color del cabello"
+      ],
+      "answer": 0,
+      "page": 79,
+      "explanation": "Entre los signos de alerta se incluyen cianosis y dificultad respiratoria.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-01",
+      "module": 7,
+      "question": "¿Qué actitud recomienda el módulo durante la atención a la familia del recién nacido?",
+      "options": [
+        "Escucha respetuosa y comunicación empática",
+        "Ocultar información de manera sistemática",
+        "Ignorar las inquietudes",
+        "Evitar cualquier contacto"
+      ],
+      "answer": 0,
+      "page": 83,
+      "explanation": "Se destacan sentimientos familiares, empatía y comunicación.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-02",
+      "module": 7,
+      "question": "¿Cuál de estos factores puede influir en la respuesta emocional de los padres?",
+      "options": [
+        "Únicamente el clima del hospital",
+        "Solo la hora del día",
+        "Separación del recién nacido y su familia",
+        "Exclusivamente el color de la incubadora"
+      ],
+      "answer": 2,
+      "page": 83,
+      "explanation": "La separación y el estrés por la enfermedad afectan la experiencia familiar.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-03",
+      "module": 7,
+      "question": "¿Qué principio ético aparece entre las consideraciones descritas?",
+      "options": [
+        "Priorizar trámites sobre el paciente",
+        "Respeto por la vida y la dignidad del neonato",
+        "Excluir siempre a la familia",
+        "Negar toda información"
+      ],
+      "answer": 1,
+      "page": 84,
+      "explanation": "El módulo expone principios éticos en la atención neonatal.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-04",
+      "module": 7,
+      "question": "¿Qué debe informarse a los padres antes del traslado según las recomendaciones?",
+      "options": [
+        "Solo el número de ambulancia",
+        "Únicamente la hora de salida",
+        "Nada hasta concluir el transporte",
+        "El estado del bebé, los procedimientos y el motivo del traslado"
+      ],
+      "answer": 3,
+      "page": 84,
+      "explanation": "Se indica explicar estado, procedimientos y la necesidad de referencia.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-05",
+      "module": 7,
+      "question": "¿Qué recomienda el manual sobre el contacto con el recién nacido antes del traslado cuando es posible?",
+      "options": [
+        "Facilitarlo de forma segura y respetuosa",
+        "Impedirlo sin motivo",
+        "Permitirlo solo al final del ingreso",
+        "Ignorar las necesidades familiares"
+      ],
+      "answer": 0,
+      "page": 84,
+      "explanation": "Se propone favorecer la cercanía y la vinculación cuando la condición lo permite.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-06",
+      "module": 7,
+      "question": "¿Qué trato debe ofrecerse a la familia en una situación crítica?",
+      "options": [
+        "Coercitivo y hostil",
+        "Indiferente",
+        "Claro, respetuoso y sin juicios",
+        "Con información contradictoria deliberada"
+      ],
+      "answer": 2,
+      "page": 83,
+      "explanation": "El apoyo emocional contempla acompañar y responder inquietudes.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-07",
+      "module": 7,
+      "question": "¿Qué principio se relaciona con decisiones informadas y respeto por las personas?",
+      "options": [
+        "Improvisación",
+        "Autonomía",
+        "Ocultamiento",
+        "Desinterés"
+      ],
+      "answer": 1,
+      "page": 84,
+      "explanation": "Las consideraciones éticas incluyen autonomía y participación en decisiones.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-08",
+      "module": 7,
+      "question": "¿Qué debe hacer el personal si la condición del neonato dificulta la presencia de los padres?",
+      "options": [
+        "Evitar toda explicación",
+        "Interrumpir la coordinación",
+        "Negar la situación clínica",
+        "Explicar las razones y mantener comunicación"
+      ],
+      "answer": 3,
+      "page": 85,
+      "explanation": "Se enfatiza informar y orientar a los familiares según el contexto clínico.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-09",
+      "module": 7,
+      "question": "¿Qué aspecto no debe descuidarse durante la atención y el transporte?",
+      "options": [
+        "El cuidado gentil y el confort del neonato",
+        "Solo la rapidez del vehículo",
+        "La ausencia de comunicación",
+        "La omisión de medidas de bienestar"
+      ],
+      "answer": 0,
+      "page": 85,
+      "explanation": "El resumen recuerda brindar cuidados gentiles al neonato.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m8-10",
+      "module": 7,
+      "question": "¿Cuál es la finalidad del apoyo emocional además de estabilizar al paciente?",
+      "options": [
+        "Sustituir la atención clínica",
+        "Evitar toda participación familiar",
+        "Acompañar a padres o cuidadores y favorecer su comprensión",
+        "Aumentar la ansiedad"
+      ],
+      "answer": 2,
+      "page": 85,
+      "explanation": "El material incorpora las necesidades emocionales de la familia al cuidado integral.",
+      "difficulty": "basic"
+    },
+    {
+      "id": "m1-A01",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "Se solicita trasladar un neonato estabilizado, pero todavía no se dispone de la documentación clínica. ¿Qué coordinación señala el manual si el traslado lo realizará el SEM?",
+      "options": [
+        "Iniciar sin documentación y completarla al arribo",
+        "Llamar al equipo del SEM y coordinar con el médico de cabecera para establecer de nuevo el tiempo posible del traslado",
+        "Suspender indefinidamente el traslado, aunque el caso sea urgente",
+        "Derivar la coordinación exclusivamente al conductor"
+      ],
+      "answer": 1,
+      "explanation": "El manual pide coordinación con el equipo del SEM y con el médico de cabecera cuando la documentación está lista o debe completarse.",
+      "page": 13
+    },
+    {
+      "id": "m1-A02",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "Un neonato se encuentra estable y necesita realizar un estudio de alta complejidad en otro hospital, con retorno previsto. Según el manual, ¿cómo se clasifica su traslado?",
+      "options": [
+        "Urgente",
+        "Programado",
+        "Intra-hospitalario",
+        "Transporte de nacimiento a sala de neonatología"
+      ],
+      "answer": 1,
+      "explanation": "Los traslados programados incluyen estudios de alta complejidad y procedimientos en pacientes estables.",
+      "page": 15
+    },
+    {
+      "id": "m1-A03",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "En un traslado urgente de un neonato crítico, ¿cuál es el principio de secuencia descrito?",
+      "options": [
+        "Trasladar primero y estabilizar únicamente en destino",
+        "Estabilizarlo y referirlo inmediatamente a un centro de mayor complejidad",
+        "Esperar al siguiente turno de transporte por comodidad",
+        "Trasladar solo si el vehículo no necesita equipamiento"
+      ],
+      "answer": 1,
+      "explanation": "El manual caracteriza el traslado urgente por estado crítico y atención especializada, con estabilización y referencia inmediata.",
+      "page": 16
+    },
+    {
+      "id": "m1-A04",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "Durante el recorrido se detecta que el equipo de transporte tiene problemas de oxígeno. ¿Quién debe verificar previamente la incubadora caliente, limpia y el tanque de oxígeno lleno?",
+      "options": [
+        "El conductor exclusivamente",
+        "La enfermera o TEM",
+        "El familiar del neonato",
+        "El personal de admisión del hospital receptor"
+      ],
+      "answer": 1,
+      "explanation": "En las funciones de enfermería o TEM figura comprobar incubadora, oxígeno y funcionamiento del equipo.",
+      "page": 17
+    },
+    {
+      "id": "m1-A05",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "Un neonato estabilizado requiere soporte ventilatorio continuo y va a ser recibido por el hospital de referencia. ¿Qué paso forma parte de la activación del traslado?",
+      "options": [
+        "Omitir la Hoja TESALVA por tratarse de urgencia",
+        "Confirmar la disponibilidad del hospital receptor y coordinar recursos, equipo e insumos",
+        "Enviar al neonato sin comunicación para ahorrar tiempo",
+        "Esperar la llegada para informar edad gestacional y diagnóstico"
+      ],
+      "answer": 1,
+      "explanation": "La activación implica comunicación con el receptor, coordinación del transporte y registro de condiciones en la Hoja TESALVA.",
+      "page": 19
+    },
+    {
+      "id": "m1-A06",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "Un equipo revisa la estabilidad antes de salir. ¿Qué combinación coincide con los objetivos TESALVA descritos en el manual para el neonato a término?",
+      "options": [
+        "FC 80–100/min, temperatura 35 °C, saturación 70 %",
+        "FC 120–160/min, temperatura axilar 36.5–37.5 °C y saturación 88–95 %",
+        "FC 170–200/min, temperatura 38.5 °C y saturación 100 % obligatoria",
+        "FC 90–110/min, temperatura 34 °C y glucosa 20 mg/dl"
+      ],
+      "answer": 1,
+      "explanation": "Los parámetros de estabilización previos al transporte se presentan en las páginas 18 y 19; estos valores pertenecen a la edición 2017.",
+      "page": 18
+    },
+    {
+      "id": "m2-A01",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Un prematuro pierde calor al colocarlo sobre una báscula fría. ¿Qué mecanismo de pérdida térmica describe la situación?",
+      "options": [
+        "Radiación",
+        "Evaporación",
+        "Conducción",
+        "Convección"
+      ],
+      "answer": 2,
+      "explanation": "La conducción es la transferencia de calor entre cuerpos en contacto directo, como una báscula fría.",
+      "page": 24
+    },
+    {
+      "id": "m2-A02",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Un recién nacido permanece mojado tras el nacimiento. ¿Qué mecanismo predomina y qué actuación preventiva señala el manual?",
+      "options": [
+        "Radiación; apagar el calentador",
+        "Evaporación; secar rápidamente y sustituir los campos húmedos",
+        "Conducción; abrir puertas y ventanas",
+        "Convección; colocar objetos fríos sobre la cuna"
+      ],
+      "answer": 1,
+      "explanation": "La evaporación enfría cuando se transforma el agua de piel o mucosas en vapor; el manual indica secar y retirar ropa húmeda.",
+      "page": 25
+    },
+    {
+      "id": "m2-A03",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Se prepara la incubadora para trasladar un neonato de 1,300 gramos. ¿Qué rango de temperatura programada corresponde a su peso en la tabla TESALVA?",
+      "options": [
+        "33–34 °C",
+        "35–36 °C",
+        "36–37 °C",
+        "38–39 °C"
+      ],
+      "answer": 2,
+      "explanation": "La tabla 2 establece 36–37 °C para pesos menores de 1,500 g.",
+      "page": 26
+    },
+    {
+      "id": "m2-A04",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Durante el recalentamiento un neonato presenta taquicardia, hipotensión y mayor dificultad respiratoria. ¿Cómo debe interpretarse este conjunto según el manual?",
+      "options": [
+        "Signos esperables de estabilización completa",
+        "Signos de deterioro durante un recalentamiento demasiado rápido",
+        "Confirmación de que ya no necesita control térmico",
+        "Evidencia aislada de hiperglucemia"
+      ],
+      "answer": 1,
+      "explanation": "Esos hallazgos están entre los signos de deterioro por recalentamiento rápido; el texto recomienda vigilancia estrecha.",
+      "page": 27
+    },
+    {
+      "id": "m2-A05",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Durante el transporte la temperatura del neonato baja de 36.5 °C. ¿Cuál es la conducta de seguimiento indicada en el manual?",
+      "options": [
+        "Interrumpir el registro hasta el arribo",
+        "Tomar medidas para aumentar la temperatura dentro de la incubadora y registrar la medición",
+        "Retirar todas las coberturas de inmediato",
+        "Esperar 4 horas sin intervención"
+      ],
+      "answer": 1,
+      "explanation": "El manual indica evaluar la temperatura durante el transporte, ajustar el entorno de incubadora y documentar valores.",
+      "page": 28
+    },
+    {
+      "id": "m2-A06",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Una temperatura central de 31.5 °C se registra en un neonato. ¿Cómo clasifica el manual este hallazgo?",
+      "options": [
+        "Normotermia",
+        "Hipotermia leve",
+        "Hipotermia moderada",
+        "Hipotermia severa"
+      ],
+      "answer": 3,
+      "explanation": "La clasificación descrita define hipotermia severa con temperatura central menor de 32 °C.",
+      "page": 22
+    },
+    {
+      "id": "m3-A01",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "Un neonato presenta piel fría, perfusión periférica lenta y llenado capilar de 5 segundos. ¿Qué interpretación corresponde a los signos clínicos del manual?",
+      "options": [
+        "Perfusión adecuada",
+        "Dato compatible con alteración de perfusión y posible choque",
+        "Evidencia de estabilidad hemodinámica sin seguimiento",
+        "Solo una medición relacionada con temperatura de incubadora"
+      ],
+      "answer": 1,
+      "explanation": "El llenado capilar mayor de 3 segundos y la piel fría son signos clínicos de mala perfusión.",
+      "page": 32
+    },
+    {
+      "id": "m3-A02",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "Un neonato a término de 2 días, peso de nacimiento de 2,800 gramos, tiene una presión arterial media de 34 mmHg. ¿Qué indica la tabla 6 del manual?",
+      "options": [
+        "La tabla establece menos de 40 mmHg como referencia de hipotensión en ese grupo",
+        "La tabla establece menos de 20 mmHg",
+        "La tabla no contiene neonatos de ese peso",
+        "La hipotensión se determina exclusivamente con la frecuencia cardíaca"
+      ],
+      "answer": 0,
+      "explanation": "En la tabla 6, para >2,500 g y 1–3 días, el punto de corte consignado es TAM <40 mmHg; se cita el manual de 2017, no guías actuales.",
+      "page": 33
+    },
+    {
+      "id": "m3-A03",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "Una gasometría en un neonato muestra pH 7.20. De acuerdo con el recuadro de interpretación TESALVA, ¿qué afirmación es correcta?",
+      "options": [
+        "Está por encima del rango normal",
+        "Es un pH normal sin posible compromiso",
+        "Indica acidosis y puede asociarse a hipotensión y requerir seguimiento",
+        "Diagnostica por sí solo la causa exacta del choque"
+      ],
+      "answer": 2,
+      "explanation": "El recuadro cita pH menor de 7.25 como peligroso, especialmente si se combina con pobre perfusión o taquicardia/hipotensión.",
+      "page": 34
+    },
+    {
+      "id": "m3-A04",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "Tras una primera intervención por mala perfusión persisten signos clínicos y no hay mejoría. Según la secuencia indicada para el transporte, ¿qué recurso se prioriza?",
+      "options": [
+        "Continuar sin controles hasta el destino",
+        "Revalorar clínicamente y comunicar/ajustar el manejo conforme al hospital de referencia",
+        "Registrar solo el peso al nacer",
+        "Suspender la comunicación con el centro receptor"
+      ],
+      "answer": 1,
+      "explanation": "El protocolo incluye reevaluar signos de perfusión y coordinar indicaciones con el centro de referencia si no hay respuesta.",
+      "page": 35
+    },
+    {
+      "id": "m3-A05",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "Un prematuro de menos de 30 semanas presenta mala perfusión. ¿Qué precaución especial describe el manual respecto de la expansión de volumen?",
+      "options": [
+        "Administrar múltiples cargas sin reevaluación",
+        "Evitar cargas innecesarias por riesgo de hemorragia intracraneana, conducto arterioso permeable y daño pulmonar",
+        "Usar siempre cargas sin considerar la edad gestacional",
+        "Omitir los controles de signos de estabilidad"
+      ],
+      "answer": 1,
+      "explanation": "En prematuros <30 semanas se aconseja cautela con expansores debido a riesgos que el manual identifica.",
+      "page": 36
+    },
+    {
+      "id": "m3-A06",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "En la vigilancia hemodinámica durante el traslado, ¿qué grupo de parámetros debe reevaluarse?",
+      "options": [
+        "Solo la talla y la edad gestacional",
+        "Frecuencia cardíaca, presión arterial, perfusión/llenado capilar y permeabilidad de accesos",
+        "Solo la temperatura ambiental del vehículo",
+        "Solo la cantidad de insumos disponibles"
+      ],
+      "answer": 1,
+      "explanation": "El apartado de monitoreo menciona registrar FC, perfusión, presión arterial, llenado capilar y verificar accesos e infusiones.",
+      "page": 37
+    },
+    {
+      "id": "m4-A01",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "Una gasometría arterial neonatal muestra pH 7.34, pCO₂ 58 mmHg y pO₂ 47 mmHg. ¿Cuál es la interpretación apoyada por la tabla 8?",
+      "options": [
+        "Todos están dentro de los rangos arteriales consignados",
+        "pCO₂ mayor al rango de 35–45 y pO₂ menor al rango de 50–80 del manual",
+        "La tabla solo contempla muestras venosas",
+        "El pH permite ignorar por completo los otros parámetros"
+      ],
+      "answer": 1,
+      "explanation": "La tabla 8 muestra pH arterial 7.30–7.45, pCO₂ 35–45 mmHg y pO₂ 50–80 mmHg.",
+      "page": 42
+    },
+    {
+      "id": "m4-A02",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "Tras iniciar oxígeno por campana cefálica, un neonato mantiene signos de dificultad respiratoria moderada y escala de Silverman 5. ¿Qué escalamiento figura en el manual?",
+      "options": [
+        "Retirar todo apoyo respiratorio",
+        "Considerar CPAP nasal con PEEP inicial de 4–5 cm H₂O, de acuerdo con la valoración",
+        "Trasladarlo sin comprobar saturación",
+        "Suspender la evaluación hasta terminar el viaje"
+      ],
+      "answer": 1,
+      "explanation": "En dificultad moderada (Silverman 4–6) el manual contempla CPAP nasal e indica PEEP inicial de 4–5 cm H₂O.",
+      "page": 45
+    },
+    {
+      "id": "m4-A03",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "Pese a CPAP nasal, se mantiene dificultad severa con Silverman mayor de 6. ¿Qué conducta corresponde al esquema del manual?",
+      "options": [
+        "No modificar el soporte hasta el destino",
+        "Considerar intubación orotraqueal, con monitorización y reevaluación",
+        "Utilizar exclusivamente una bolsa de agua caliente",
+        "Retirar la monitorización cardiopulmonar"
+      ],
+      "answer": 1,
+      "explanation": "Para dificultad severa persistente con Silverman >6, el texto describe intubación orotraqueal y seguimiento.",
+      "page": 46
+    },
+    {
+      "id": "m4-A04",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "La radiografía y clínica indican neumotórax con dificultad respiratoria en un neonato antes de su traslado. ¿Qué precaución esencial destaca TESALVA?",
+      "options": [
+        "Trasladar sin abordar el neumotórax",
+        "Considerar drenaje antes del transporte y vigilancia estrecha",
+        "Administrar alimentación enteral inmediatamente",
+        "Aumentar la presión de ventilación sin reevaluar"
+      ],
+      "answer": 1,
+      "explanation": "El manual insiste en no trasladar con dificultad respiratoria por neumotórax sin drenaje previo.",
+      "page": 47
+    },
+    {
+      "id": "m4-A05",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "Un paciente intubado requiere transporte y aparece deterioro respiratorio súbito. ¿Qué acrónimo propone el manual para revisar causas corregibles?",
+      "options": [
+        "RUTA",
+        "DOPE: desplazamiento, obstrucción, neumotórax y equipo",
+        "ABCDE solamente para logística",
+        "TES sin evaluación de tubo"
+      ],
+      "answer": 1,
+      "explanation": "El apartado de mantenimiento de la vía aérea propone DOPE para evaluar problemas de tubo o equipo.",
+      "page": 48
+    },
+    {
+      "id": "m4-A06",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "Durante el traslado se documenta la ventilación del neonato. ¿Qué conjunto de parámetros aparece en la tabla 9?",
+      "options": [
+        "Peso materno, grupo sanguíneo y longitud",
+        "Temperatura, FC, FR, esfuerzo respiratorio, saturación y tipo de soporte ventilatorio",
+        "Solo edad de madre y fecha de parto",
+        "Únicamente número de ambulancia y kilometraje"
+      ],
+      "answer": 1,
+      "explanation": "La tabla 9 reúne signos vitales, color/saturación y necesidad de soporte ventilatorio.",
+      "page": 49
+    },
+    {
+      "id": "m5-A01",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Un neonato pequeño para la edad gestacional inicia el transporte. ¿Cuál es la razón para vigilar especialmente la glucosa según el manual?",
+      "options": [
+        "Sus reservas son ilimitadas",
+        "Las reservas de glucógeno pueden ser inadecuadas y aumentan el riesgo de hipoglucemia",
+        "Todos los neonatos pequeños tienen hiperglucemia obligatoria",
+        "La glucosa nunca cambia durante el traslado"
+      ],
+      "answer": 1,
+      "explanation": "El apartado de azúcar identifica reservas inadecuadas de glucógeno como factor de hipoglucemia.",
+      "page": 53
+    },
+    {
+      "id": "m5-A02",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Un neonato prematuro con sepsis y glucosa descendente presenta temblor, letargia y apnea. ¿Qué relación clínica plantea el manual?",
+      "options": [
+        "Son incompatibles con alteración glucémica",
+        "Son manifestaciones que pueden acompañar hipoglucemia y requieren control de glucosa",
+        "Demuestran que la glucosa está elevada de forma segura",
+        "Descartan compromiso respiratorio"
+      ],
+      "answer": 1,
+      "explanation": "La tabla de signos incluye temblor, letargia y apnea, y sepsis es un factor asociado a utilización aumentada de glucosa.",
+      "page": 54
+    },
+    {
+      "id": "m5-A03",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Una medición de 165 mg/dl se obtiene en un neonato. Según el apartado TESALVA, ¿qué condición debe considerarse?",
+      "options": [
+        "Hiperglucemia según el umbral descrito, con evaluación clínica",
+        "Hipoglucemia grave por definición",
+        "Valor siempre normal independientemente de la evolución",
+        "Una lectura que permite ignorar las mediciones posteriores"
+      ],
+      "answer": 0,
+      "explanation": "El texto considera hiperglucemia las mediciones centrales por encima de 120–125 mg/dl o periféricas mayores de 145–150 mg/dl, según contexto.",
+      "page": 55
+    },
+    {
+      "id": "m5-A04",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Un neonato tiene hemoglucotest de 38 mg/dl sin síntomas y está siendo preparado para traslado. ¿Qué clase de escenario detalla el documento?",
+      "options": [
+        "Neonato asintomático con medición menor de 40 mg/dl, para el que describe un esquema específico de corrección y verificación",
+        "Neonato con glucosa superior a 150 mg/dl",
+        "Neonato cuya glucosa no necesita registrarse",
+        "Condición exclusiva de hipertermia"
+      ],
+      "answer": 0,
+      "explanation": "El manual diferencia rutas para mediciones menores de 50 mg/dl y, en asintomáticos, menores de 40 mg/dl.",
+      "page": 56
+    },
+    {
+      "id": "m5-A05",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Durante el transporte, la hemoglucotest se mantiene por debajo de 50 mg/dl pese al seguimiento. ¿Qué enfatiza el manual?",
+      "options": [
+        "No registrar la nueva medición",
+        "Vigilar glucosa, ajustar el aporte según el esquema y documentar las mediciones",
+        "Suspender todas las comprobaciones",
+        "Retirar el acceso venoso antes de llegar"
+      ],
+      "answer": 1,
+      "explanation": "La sección de conservación insiste en mediciones seriadas, ajustes según valores y registro en la hoja de transporte.",
+      "page": 57
+    },
+    {
+      "id": "m5-A06",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Un neonato presenta glucosa periférica de 160 mg/dl antes de salir. ¿Cuál es el paso de coordinación expresamente descrito en el resumen TESALVA?",
+      "options": [
+        "Dar salida sin avisar",
+        "Llamar al hospital receptor para recibir indicaciones sobre el manejo",
+        "Tratarla como un valor de 40 mg/dl",
+        "Ignorar el dato porque solo importa el peso"
+      ],
+      "answer": 1,
+      "explanation": "El resumen indica contactar con el hospital receptor cuando la glucosa periférica supera 150 mg/dl.",
+      "page": 57
+    },
+    {
+      "id": "m6-A01",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "Un neonato manifiesta signos de infección después de las primeras 72 horas de hospitalización y existe asociación con procedimientos del entorno sanitario. ¿Qué categoría describe mejor el manual?",
+      "options": [
+        "Sepsis temprana",
+        "Sepsis nosocomial",
+        "Hipotermia aislada",
+        "Sepsis fetal exclusivamente intrauterina"
+      ],
+      "answer": 1,
+      "explanation": "La sepsis nosocomial se atribuye a microorganismos del entorno sanitario y se describe en pacientes con 72 h o menos de haber sido egresados o según hospitalización.",
+      "page": 59
+    },
+    {
+      "id": "m6-A02",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "Un neonato tiene catéter intravascular, ventilación y hospitalización prolongada. ¿Cómo clasifica la tabla 12 estos elementos?",
+      "options": [
+        "Factores que eliminan la probabilidad de infección",
+        "Factores predisponentes relacionados con procedimientos invasivos y exposición posnatal",
+        "Pruebas diagnósticas definitivas de infección",
+        "Solo factores genéticos no modificables"
+      ],
+      "answer": 1,
+      "explanation": "La tabla recoge catéteres, alimentación parenteral, drenajes y hospitalización prolongada entre factores predisponentes.",
+      "page": 60
+    },
+    {
+      "id": "m6-A03",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "Un prematuro presenta letargia, apnea, piel marmórea y distensión abdominal. Según la tabla de signos clínicos, ¿qué conclusión es más apropiada?",
+      "options": [
+        "El cuadro no puede corresponder a sepsis por ser multisistémico",
+        "La sepsis neonatal puede manifestarse con signos neurológicos, respiratorios, cardiovasculares y digestivos",
+        "Solo los síntomas digestivos son relevantes",
+        "El diagnóstico se confirma exclusivamente por temperatura"
+      ],
+      "answer": 1,
+      "explanation": "La tabla 14 organiza signos de sepsis en varios sistemas y remarca que la clínica es variable e inespecífica.",
+      "page": 61
+    },
+    {
+      "id": "m6-A04",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "Se revisa el hemograma de un neonato de 48 horas. ¿Cuál es el rango de plaquetas que consigna la tabla 15?",
+      "options": [
+        "30,000–60,000/mm³",
+        "150,000–350,000/mm³",
+        "500,000–800,000/mm³",
+        "1,000–5,000/mm³"
+      ],
+      "answer": 1,
+      "explanation": "La tabla 15 consigna plaquetas de 150,000 a 350,000/mm³ para ese grupo.",
+      "page": 62
+    },
+    {
+      "id": "m6-A05",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "Un informe registra un conteo absoluto de neutrófilos de 900/mm³ en un neonato de 36 semanas. Según la tabla 16 TESALVA, ¿cómo se interpreta el punto de corte?",
+      "options": [
+        "Siempre es normal a todas las edades",
+        "Es inferior al umbral CAN <1,000 indicado para 28–36 semanas",
+        "Solo puede interpretarse con plaquetas",
+        "Es el umbral de neonatos menores de 28 semanas"
+      ],
+      "answer": 1,
+      "explanation": "La tabla 16 utiliza CAN <1,000 para el grupo de 28–36 semanas (con la referencia de la edad posnatal del cuadro).",
+      "page": 65
+    },
+    {
+      "id": "m6-A06",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "Un hemograma presenta neutrófilos segmentados 60 %, bandas 10 % y metamielocitos 5 %. ¿Cuál es el índice de bandemia I/T aproximado según el ejemplo del manual?",
+      "options": [
+        "0.02",
+        "0.20",
+        "0.75",
+        "1.50"
+      ],
+      "answer": 1,
+      "explanation": "El ejemplo utiliza inmaduros (bandas + metamielocitos) / (segmentados + bandas + metamielocitos): (10+5)/(60+10+5)=0.20.",
+      "page": 66
+    },
+    {
+      "id": "m7-A01",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "Un neonato tiene asas intestinales expuestas a través de un defecto paraumbilical derecho, sin saco que las cubra. ¿Cuál es la patología descrita?",
+      "options": [
+        "Onfalocele",
+        "Gastrosquisis",
+        "Mielomeningocele",
+        "Cardiopatía congénita"
+      ],
+      "answer": 1,
+      "explanation": "La gastrosquisis se describe como defecto de pared abdominal a la derecha del cordón, con intestinos exteriorizados sin membrana de cobertura.",
+      "page": 72
+    },
+    {
+      "id": "m7-A02",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "Durante el traslado de un neonato con gastrosquisis, ¿qué medida de protección concuerda con el manual?",
+      "options": [
+        "Dejar las asas expuestas al aire",
+        "Cubrirlas con material apropiado y prevenir pérdida de calor y líquidos",
+        "Administrar nutrición enteral antes de salir",
+        "Comprimir las asas contra el abdomen"
+      ],
+      "answer": 1,
+      "explanation": "En la sección de transporte se indica proteger las asas, evitar distensión y pérdidas térmicas o hídricas.",
+      "page": 73
+    },
+    {
+      "id": "m7-A03",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "En un neonato el defecto abdominal está en la línea media y el contenido está cubierto por una membrana. ¿Qué diagnóstico de las valoraciones especiales es más compatible?",
+      "options": [
+        "Gastrosquisis",
+        "Onfalocele",
+        "Neumotórax",
+        "Sepsis tardía"
+      ],
+      "answer": 1,
+      "explanation": "El onfalocele se describe como defecto en la línea media con contenido abdominal cubierto por membrana.",
+      "page": 73
+    },
+    {
+      "id": "m7-A04",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "Un neonato con atresia esofágica y sospecha de fístula requiere traslado. ¿Qué prevención prioriza el manual?",
+      "options": [
+        "Alimentación oral frecuente",
+        "Mantener aspiración de secreciones de forma continua y evitar alimentación enteral",
+        "Colocar al neonato sin vigilancia en decúbito supino prolongado",
+        "Eliminar todo contacto con el hospital receptor"
+      ],
+      "answer": 1,
+      "explanation": "El apartado señala aspiración de secreciones y medidas para reducir aspiración pulmonar en atresia esofágica con o sin fístula.",
+      "page": 74
+    },
+    {
+      "id": "m7-A05",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "Un neonato con mielomeningocele es preparado para transporte. ¿Qué posición y protección aparecen en el manual?",
+      "options": [
+        "Decúbito dorsal con presión directa sobre el defecto",
+        "Decúbito ventral y cobertura/protección del defecto para evitar contaminación y traumatismos",
+        "Sentarlo sobre la lesión",
+        "Cubrirlo solo si se ha roto el saco"
+      ],
+      "answer": 1,
+      "explanation": "El manual indica mantenerlo en decúbito ventral, proteger la lesión y vigilar integridad del saco.",
+      "page": 76
+    },
+    {
+      "id": "m7-A06",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "Un neonato con sospecha de cardiopatía congénita presenta soplo y cianosis central que persiste pese a oxígeno. ¿Qué enfoque corresponde al apartado de transporte?",
+      "options": [
+        "Descartar enfermedad cardiaca por la cianosis persistente",
+        "Reevaluación y vigilancia cardiorrespiratoria, coordinación con centro receptor y traslado estabilizado",
+        "No medir tensión arterial",
+        "Suspender controles hasta la llegada"
+      ],
+      "answer": 1,
+      "explanation": "El texto menciona soplo, cianosis central y dificultad respiratoria, con vigilancia hemodinámica y coordinación de traslado.",
+      "page": 79
+    },
+    {
+      "id": "m8-A01",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "La familia reacciona con enojo y preguntas repetidas ante un traslado urgente. ¿Cuál es la mejor interpretación según el módulo ético?",
+      "options": [
+        "La familia está interfiriendo y no debe recibir información",
+        "Las emociones son una respuesta posible al estrés y se necesita escucha y comunicación respetuosa",
+        "Las preguntas deben posponerse siempre hasta el alta",
+        "Solo el conductor puede informar"
+      ],
+      "answer": 1,
+      "explanation": "El manual reconoce respuestas emocionales diversas y recomienda empatía, comprensión y comunicación.",
+      "page": 83
+    },
+    {
+      "id": "m8-A02",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "El neonato requiere traslado y sus padres piden conocer el destino, los procedimientos y quién lo recibirá. ¿Cuál es la conducta descrita?",
+      "options": [
+        "Evitar explicaciones para disminuir tiempos",
+        "Explicar el estado, el motivo del traslado y cómo se realizará, en lenguaje comprensible",
+        "Compartir solo información técnica incomprensible",
+        "Delegar toda la información al familiar más lejano"
+      ],
+      "answer": 1,
+      "explanation": "Antes del traslado se solicita informar a responsables sobre el estado del neonato y explicar claramente las condiciones del traslado.",
+      "page": 84
+    },
+    {
+      "id": "m8-A03",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "Una madre no puede viajar en la ambulancia. ¿Qué actuación respeta las recomendaciones éticas del manual?",
+      "options": [
+        "Prohibirle preguntar por el hospital receptor",
+        "Explicar el destino y facilitar la comunicación o contacto con el recién nacido dentro de lo posible",
+        "Modificar el destino sin informar",
+        "Evitar compartir cualquier dato sobre la evolución"
+      ],
+      "answer": 1,
+      "explanation": "La guía destaca comunicación clara, contacto con el neonato y apoyo durante la separación.",
+      "page": 84
+    },
+    {
+      "id": "m8-A04",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "En una situación de alto riesgo, ¿qué factores deben considerarse en la toma de decisiones éticas además del criterio clínico?",
+      "options": [
+        "Únicamente la rapidez del equipo",
+        "Bienestar e interés superior del neonato, información adecuada y participación de los padres o responsables",
+        "Solo las preferencias personales del conductor",
+        "La reducción de la documentación"
+      ],
+      "answer": 1,
+      "explanation": "El módulo describe beneficencia, no maleficencia, autonomía, justicia y el interés superior del niño.",
+      "page": 84
+    },
+    {
+      "id": "m8-A05",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "Durante el traslado surgen complicaciones. ¿Qué actuación de comunicación es coherente con el módulo de ética?",
+      "options": [
+        "Ocultar sistemáticamente la evolución",
+        "Informar a los responsables del estado, progresos o complicaciones y mantener una comunicación respetuosa",
+        "Comunicar solo cuando la familia presenta una queja",
+        "Compartir información del neonato con cualquier persona"
+      ],
+      "answer": 1,
+      "explanation": "El resumen aconseja mantener informados a los padres o responsables sobre la condición y evolución clínica.",
+      "page": 85
+    },
+    {
+      "id": "m8-A06",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "Un profesional se concentra en aspectos técnicos y omite cualquier gesto de confort. ¿Qué dimensión señala el manual como esencial durante el transporte?",
+      "options": [
+        "La calidez y cuidados gentiles al neonato, junto a la estabilización técnica",
+        "Eliminar la participación del personal de enfermería",
+        "Considerar al neonato únicamente como un procedimiento",
+        "No comunicar medidas al equipo"
+      ],
+      "answer": 0,
+      "explanation": "La sección de recomendaciones durante el traslado pide una atención respetuosa y cuidados gentiles durante la manipulación.",
+      "page": 85
+    },
+    {
+      "id": "m1-I01",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "¿Qué combinación permite planificar un traslado sin depender de decisiones improvisadas?",
+      "options": [
+        "Solo disponibilidad del conductor",
+        "Excluir al equipo receptor hasta la llegada",
+        "Equipo calificado, capacidad de transporte y comunicación con el receptor",
+        "Únicamente la distancia al destino"
+      ],
+      "answer": 2,
+      "page": 12,
+      "explanation": "El módulo I vincula la organización del traslado con personal, equipo y coordinación entre establecimientos."
+    },
+    {
+      "id": "m1-I02",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "Si el recién nacido ya está estabilizado y consta la documentación, ¿qué comunicación falta antes de salir?",
+      "options": [
+        "Dejar la decisión exclusivamente al conductor",
+        "Avisar solo después de descargar al paciente",
+        "Omitir cualquier aviso hasta llegar",
+        "Coordinar con el médico de cabecera y el equipo del SEM cuando corresponda"
+      ],
+      "answer": 3,
+      "page": 13,
+      "explanation": "El manual exige coordinación y documentación antes de activar el traslado."
+    },
+    {
+      "id": "m1-I03",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "¿Qué característica diferencia el transporte intrahospitalario del interhospitalario?",
+      "options": [
+        "Siempre implica ambulancia",
+        "Siempre implica cirugía urgente",
+        "No requiere personal capacitado",
+        "Ocurre dentro del mismo establecimiento"
+      ],
+      "answer": 3,
+      "page": 13,
+      "explanation": "El criterio diferenciador del traslado intrahospitalario es el lugar donde se realiza."
+    },
+    {
+      "id": "m1-I04",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "En un traslado desde sala de expulsión a cuidados intensivos, ¿qué información debe contrastar enfermería?",
+      "options": [
+        "Datos del brazalete con el expediente e historia de nacimiento",
+        "Solo el nombre del conductor",
+        "El costo del combustible",
+        "La edad de los familiares"
+      ],
+      "answer": 0,
+      "page": 14,
+      "explanation": "El procedimiento solicita verificar identidad y documentación clínica."
+    },
+    {
+      "id": "m1-I05",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "Si un prematuro de menos de 1500 g cambia de servicio, ¿qué debe verificarse adicionalmente?",
+      "options": [
+        "La hora del alta administrativa solamente",
+        "Que se posponga la valoración de signos vitales",
+        "Las medidas adicionales de traslado detalladas en el módulo de cuidados especiales",
+        "Que vaya sin incubadora para ahorrar tiempo"
+      ],
+      "answer": 2,
+      "page": 14,
+      "explanation": "El módulo I destaca medidas específicas para prematuros de menos de 1500 g."
+    },
+    {
+      "id": "m1-I06",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "Un neonato estable requiere estudio de alta complejidad en otro centro y luego retorna. ¿Cómo se clasifica el traslado?",
+      "options": [
+        "Programado",
+        "Intrahospitalario",
+        "Domiciliario",
+        "Urgente por definición"
+      ],
+      "answer": 0,
+      "page": 15,
+      "explanation": "Entre los traslados programados se incluyen estudios especializados."
+    },
+    {
+      "id": "m1-I07",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "En el equipo básico del hospital durante un traslado, ¿quién dirige las acciones clínicas y el plan previo?",
+      "options": [
+        "El encargado de mantenimiento",
+        "El médico responsable del equipo",
+        "El familiar acompañante",
+        "El motorista por sí solo"
+      ],
+      "answer": 1,
+      "page": 16,
+      "explanation": "El módulo I atribuye al médico la dirección y coordinación clínica del equipo."
+    },
+    {
+      "id": "m1-I08",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "¿Qué responsabilidad del personal de enfermería y TEM afecta directamente a la seguridad del soporte térmico?",
+      "options": [
+        "Prescindir de la revisión del oxígeno",
+        "Evitar el registro de eventos",
+        "Vigilar que la incubadora permanezca caliente y la batería cargada",
+        "Desactivar las alarmas"
+      ],
+      "answer": 2,
+      "page": 17,
+      "explanation": "La inspección de incubadora, energía y oxígeno aparece entre sus funciones."
+    },
+    {
+      "id": "m1-I09",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "La lista de material incluye laringoscopio, bolsa de reanimación y fuente de oxígeno. ¿A qué objetivo responde en conjunto?",
+      "options": [
+        "A reducir personal médico",
+        "A disponer de equipo para reanimación y soporte respiratorio durante el transporte",
+        "A evitar monitorizar la saturación",
+        "A sustituir el registro clínico"
+      ],
+      "answer": 1,
+      "page": 18,
+      "explanation": "La disponibilidad de material de reanimación forma parte de la preparación."
+    },
+    {
+      "id": "m1-I10",
+      "module": 0,
+      "difficulty": "intermediate",
+      "question": "Antes de activar el traslado a referencia, ¿qué acción se espera respecto al receptor?",
+      "options": [
+        "Confirmar únicamente el estacionamiento",
+        "Presentar el caso y verificar la aceptación y coordinación",
+        "Enviar solo datos administrativos",
+        "Presentarse sin avisar"
+      ],
+      "answer": 1,
+      "page": 19,
+      "explanation": "La activación comienza con coordinación de la unidad remitente y receptora."
+    },
+    {
+      "id": "m2-I01",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "Un neonato de 35.2 °C, según la clasificación de este manual, presenta ¿qué grado?",
+      "options": [
+        "Hipotermia moderada",
+        "Hipotermia leve",
+        "Temperatura normal",
+        "Hipotermia severa"
+      ],
+      "answer": 0,
+      "page": 22,
+      "explanation": "El manual clasifica la hipotermia moderada en el intervalo de 32 °C a 35.9 °C."
+    },
+    {
+      "id": "m2-I02",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "¿Qué intervalo de temperatura central considera neutro o normal el texto?",
+      "options": [
+        "34 °C a 35 °C",
+        "36.5 °C a 37.5 °C",
+        "32 °C a 34 °C",
+        "37.8 °C a 39 °C"
+      ],
+      "answer": 1,
+      "page": 22,
+      "explanation": "El módulo II indica una temperatura corporal normal de 36.5 a 37.5 °C."
+    },
+    {
+      "id": "m2-I03",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "¿Qué respuesta fisiológica del neonato intenta compensar el frío mediante grasa parda?",
+      "options": [
+        "Hiperventilación voluntaria",
+        "Termogénesis química sin tiritar",
+        "Sudoración profusa",
+        "Temblores intensos propios del adulto"
+      ],
+      "answer": 1,
+      "page": 23,
+      "explanation": "El texto destaca la termogénesis de grasa parda frente a la respuesta del adulto."
+    },
+    {
+      "id": "m2-I04",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "El neonato pierde calor al apoyarse sobre una mesa fría. ¿Qué proceso explica la pérdida?",
+      "options": [
+        "Evaporación",
+        "Conducción",
+        "Convección",
+        "Radiación"
+      ],
+      "answer": 1,
+      "page": 24,
+      "explanation": "La conducción implica transferencia de calor por contacto directo."
+    },
+    {
+      "id": "m2-I05",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "La incubadora queda abierta frente a una corriente de aire frío. ¿Qué mecanismo predomina?",
+      "options": [
+        "Convección",
+        "Conducción",
+        "Evaporación",
+        "Metabolismo basal"
+      ],
+      "answer": 0,
+      "page": 25,
+      "explanation": "Las corrientes de aire favorecen la pérdida térmica por convección."
+    },
+    {
+      "id": "m2-I06",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "Una piel mojada se seca con rapidez tras el nacimiento. ¿Qué pérdida de calor se está previniendo?",
+      "options": [
+        "Evaporación",
+        "Radiación",
+        "Conducción",
+        "Vasoconstricción"
+      ],
+      "answer": 0,
+      "page": 25,
+      "explanation": "El paso de líquido a vapor retira calor del recién nacido."
+    },
+    {
+      "id": "m2-I07",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "Se coloca la incubadora cerca de una ventana muy fría sin tocarla. ¿Qué mecanismo se busca evitar?",
+      "options": [
+        "Conducción",
+        "Producción de glucosa",
+        "Evaporación",
+        "Radiación"
+      ],
+      "answer": 3,
+      "page": 26,
+      "explanation": "La radiación ocurre hacia superficies frías sin necesidad de contacto."
+    },
+    {
+      "id": "m2-I08",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "Para un recién nacido de 1800 g, ¿qué rango de incubadora muestra la tabla 2?",
+      "options": [
+        "35–36 °C",
+        "38–39 °C",
+        "36–37 °C",
+        "33–34 °C"
+      ],
+      "answer": 0,
+      "page": 26,
+      "explanation": "La tabla 2 agrupa a los neonatos de 1500 a 2500 g en 35–36 °C."
+    },
+    {
+      "id": "m2-I09",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "Durante recalentamiento, ¿con qué intervalo señala el documento que debe comprobarse la temperatura?",
+      "options": [
+        "Solo al llegar al hospital",
+        "Una vez al día",
+        "Cada 12 horas",
+        "Cada 30 a 60 minutos"
+      ],
+      "answer": 3,
+      "page": 27,
+      "explanation": "El procedimiento del módulo II establece verificaciones periódicas de 30 a 60 minutos."
+    },
+    {
+      "id": "m2-I10",
+      "module": 1,
+      "difficulty": "intermediate",
+      "question": "Un neonato desciende de 36.5 °C en ruta. ¿Qué evaluación insiste en repetir el manual?",
+      "options": [
+        "Ninguna evaluación hasta la llegada",
+        "Únicamente el peso al nacimiento",
+        "Solo la tensión arterial del conductor",
+        "Temperatura y componentes de incubadora/ambiente"
+      ],
+      "answer": 3,
+      "page": 28,
+      "explanation": "Durante el traslado se evalúa la temperatura y se comprueba el funcionamiento de la incubadora."
+    },
+    {
+      "id": "m3-I01",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "En el marco del módulo III, ¿qué relación resume el gasto cardíaco?",
+      "options": [
+        "Glucemia dividida entre respiraciones",
+        "Temperatura multiplicada por peso",
+        "Saturación menos presión venosa",
+        "Volumen por minuto asociado a frecuencia cardíaca"
+      ],
+      "answer": 3,
+      "page": 30,
+      "explanation": "La figura de fisiopatología del choque representa el gasto cardíaco como flujo por minuto dependiente de factores cardíacos."
+    },
+    {
+      "id": "m3-I02",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "Un neonato con hemorragia aguda sufre caída de precarga. ¿Qué grupo etiológico describe mejor el problema?",
+      "options": [
+        "Choque séptico por definición",
+        "Aislamiento térmico inadecuado",
+        "Choque cardiogénico por arritmia",
+        "Choque hipovolémico"
+      ],
+      "answer": 3,
+      "page": 31,
+      "explanation": "La hipovolemia altera la precarga, según las tablas del módulo III."
+    },
+    {
+      "id": "m3-I03",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "Una cardiopatía con disfunción contráctil compromete principalmente ¿qué variable hemodinámica?",
+      "options": [
+        "Contractilidad",
+        "Concentración ambiental de humedad",
+        "Peso al nacimiento",
+        "Longitud corporal"
+      ],
+      "answer": 0,
+      "page": 31,
+      "explanation": "La disfunción miocárdica se relaciona con menor contractilidad."
+    },
+    {
+      "id": "m3-I04",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "¿Qué valor de llenado capilar figura entre los hallazgos de perfusión alterada?",
+      "options": [
+        "Mayor de 3 segundos",
+        "Menor de medio segundo",
+        "Menor de 1 segundo",
+        "Exactamente 0 segundos"
+      ],
+      "answer": 0,
+      "page": 32,
+      "explanation": "La tabla 5 incluye un llenado capilar superior a tres segundos como signo de choque."
+    },
+    {
+      "id": "m3-I05",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "Al valorar los pulsos, ¿qué hallazgo apunta a compromiso circulatorio?",
+      "options": [
+        "Pulso femoral siempre más fuerte",
+        "Pulsos palpables sin otros cambios",
+        "Pulsos débiles o imperceptibles",
+        "Pulsos completamente simétricos y vigorosos"
+      ],
+      "answer": 2,
+      "page": 32,
+      "explanation": "Los pulsos periféricos débiles están en los signos clínicos del choque."
+    },
+    {
+      "id": "m3-I06",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "¿Cuál es la presión arterial media umbral indicada para 4–7 días en un neonato de más de 2500 g?",
+      "options": [
+        "Menor de 45 mmHg",
+        "Mayor de 70 mmHg",
+        "Menor de 15 mmHg",
+        "Menor de 25 mmHg"
+      ],
+      "answer": 0,
+      "page": 33,
+      "explanation": "La tabla 6 muestra para 4–7 días y más de 2500 g el umbral de TAM menor de 45 mmHg."
+    },
+    {
+      "id": "m3-I07",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "En el recuadro de gasometría, ¿qué indica un pH menor de 7.30?",
+      "options": [
+        "Acidemia según el manual",
+        "Valor normal neonatal",
+        "Exclusivamente hiperglucemia",
+        "Alcalosis obligatoria"
+      ],
+      "answer": 0,
+      "page": 34,
+      "explanation": "El recuadro de la página 34 identifica pH menor de 7.30 como anormal."
+    },
+    {
+      "id": "m3-I08",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "¿Qué observación determina continuar o replantear una expansión de volumen?",
+      "options": [
+        "El color del vehículo",
+        "El tamaño del hospital de origen",
+        "La preferencia del acompañante",
+        "La evolución de signos de perfusión después de la intervención"
+      ],
+      "answer": 3,
+      "page": 35,
+      "explanation": "El esquema solicita vigilar signos de estabilidad hemodinámica luego de cada intervención."
+    },
+    {
+      "id": "m3-I09",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "¿Por qué advierte el manual sobre expansores en prematuros de menos de 30 semanas?",
+      "options": [
+        "Porque eliminan cualquier posibilidad de choque",
+        "Porque siempre mejoran la ventilación",
+        "Porque sustituyen la monitorización",
+        "Por riesgo de hemorragia intracraneana y otros eventos"
+      ],
+      "answer": 3,
+      "page": 36,
+      "explanation": "El documento requiere precaución especial en prematuros muy inmaduros."
+    },
+    {
+      "id": "m3-I10",
+      "module": 2,
+      "difficulty": "intermediate",
+      "question": "¿Qué parámetros deben registrarse repetidamente durante el traslado hemodinámico?",
+      "options": [
+        "Solo saturación sin otros datos",
+        "Frecuencia cardíaca, presión arterial y llenado capilar",
+        "Solo número de identificación",
+        "Únicamente perímetro craneal"
+      ],
+      "answer": 1,
+      "page": 37,
+      "explanation": "El módulo III exige monitorización de signos circulatorios antes y durante el trayecto."
+    },
+    {
+      "id": "m4-I01",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "Al evaluar dificultad respiratoria neonatal, ¿cuál de las siguientes causas sí aparece en el listado respiratorio?",
+      "options": [
+        "Dermatitis del pañal",
+        "Hipoacusia congénita",
+        "Síndrome de aspiración de meconio",
+        "Fractura aislada de húmero"
+      ],
+      "answer": 2,
+      "page": 40,
+      "explanation": "La tabla 7 incluye síndrome de aspiración de meconio entre causas respiratorias."
+    },
+    {
+      "id": "m4-I02",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "Un neonato presenta dificultad respiratoria por una alteración cardiaca congénita. ¿A qué grupo corresponde en la tabla 7?",
+      "options": [
+        "Gastrointestinal",
+        "Infección de piel",
+        "Metabólico puro",
+        "Cardiovascular"
+      ],
+      "answer": 3,
+      "page": 41,
+      "explanation": "La tabla 7 organiza las causas de dificultad respiratoria por sistemas."
+    },
+    {
+      "id": "m4-I03",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "En la tabla de gasometría arterial, ¿qué intervalo de pCO₂ aparece como normal?",
+      "options": [
+        "55–75 mmHg",
+        "35–45 mmHg",
+        "5–15 mmHg",
+        "90–110 mmHg"
+      ],
+      "answer": 1,
+      "page": 42,
+      "explanation": "La tabla 8 consigna pCO₂ arterial de 35–45 mmHg."
+    },
+    {
+      "id": "m4-I04",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "¿Qué pH arterial se utiliza como rango de referencia en la tabla 8?",
+      "options": [
+        "7.00–7.10",
+        "7.60–7.80",
+        "7.30–7.45",
+        "6.80–7.00"
+      ],
+      "answer": 2,
+      "page": 42,
+      "explanation": "El rango de referencia del manual se sitúa entre 7.30 y 7.45."
+    },
+    {
+      "id": "m4-I05",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "La hipoperfusión con metabolismo anaerobio se relaciona en el manual con ¿qué trastorno?",
+      "options": [
+        "Hipercalcemia",
+        "Acidosis metabólica",
+        "Alcalosis metabólica obligatoria",
+        "Hipervitaminosis"
+      ],
+      "answer": 1,
+      "page": 43,
+      "explanation": "La producción de lactato por hipoxia tisular favorece acidosis metabólica."
+    },
+    {
+      "id": "m4-I06",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "En sospecha de enfermedad respiratoria con dificultad al ingreso, ¿qué exploración propone el protocolo como apoyo?",
+      "options": [
+        "Únicamente una encuesta a los padres",
+        "Radiografía toracoabdominal según disponibilidad y valoración",
+        "Solo examen auditivo",
+        "Solo radiografía del pie"
+      ],
+      "answer": 1,
+      "page": 44,
+      "explanation": "El módulo IV incluye radiografía y estudios de laboratorio en la valoración."
+    },
+    {
+      "id": "m4-I07",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "Un neonato tiene puntuación Silverman de 2 y saturación bajo el umbral del texto. ¿Cómo se clasifica inicialmente la dificultad?",
+      "options": [
+        "Obstrucción de tubo",
+        "No clasificable nunca",
+        "Leve",
+        "Severa por definición"
+      ],
+      "answer": 2,
+      "page": 45,
+      "explanation": "El esquema describe dificultad leve con Silverman menor de 3 puntos."
+    },
+    {
+      "id": "m4-I08",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "Con Silverman entre 4 y 6 tras valoración inicial, ¿qué soporte menciona el manual?",
+      "options": [
+        "Solo cambiar el pañal",
+        "CPAP nasal con vigilancia",
+        "Ningún soporte bajo ningún concepto",
+        "Alta inmediata obligatoria"
+      ],
+      "answer": 1,
+      "page": 45,
+      "explanation": "En dificultad moderada, la guía describe CPAP nasal y reevaluación."
+    },
+    {
+      "id": "m4-I09",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "Una puntuación Silverman mayor de 6 tras CPAP corresponde a ¿qué nivel?",
+      "options": [
+        "Normalidad",
+        "Dificultad respiratoria severa",
+        "Mejoría completa",
+        "Dificultad leve sin seguimiento"
+      ],
+      "answer": 1,
+      "page": 46,
+      "explanation": "El documento usa más de 6 puntos como criterio de severidad."
+    },
+    {
+      "id": "m4-I10",
+      "module": 3,
+      "difficulty": "intermediate",
+      "question": "¿Qué se monitoriza durante ventilación en el traslado según tabla 9?",
+      "options": [
+        "Solo hora del nacimiento",
+        "Solo peso del vehículo",
+        "Solo aporte enteral",
+        "Saturación, frecuencia respiratoria y necesidad de soporte"
+      ],
+      "answer": 3,
+      "page": 49,
+      "explanation": "La tabla 9 enumera signos vitales, color y soporte ventilatorio."
+    },
+    {
+      "id": "m5-I01",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "¿Por qué la glucosa del neonato cambia tras el nacimiento?",
+      "options": [
+        "Desaparece el consumo cerebral",
+        "La insulina materna sustituye la producción neonatal",
+        "Se interrumpe el aporte continuo placentario de glucosa materna",
+        "Aumenta indefinidamente la transferencia placentaria"
+      ],
+      "answer": 2,
+      "page": 53,
+      "explanation": "El módulo V describe la transición de la glucosa placentaria al metabolismo neonatal."
+    },
+    {
+      "id": "m5-I02",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "¿Qué grupos figuran como vulnerables a alteraciones de glucosa?",
+      "options": [
+        "Únicamente adolescentes",
+        "Prematuros y pequeños para edad gestacional",
+        "Solo neonatos a término sin factores",
+        "Solo recién nacidos con peso normal"
+      ],
+      "answer": 1,
+      "page": 53,
+      "explanation": "Prematuridad y restricción de crecimiento se identifican como factores de riesgo."
+    },
+    {
+      "id": "m5-I03",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "¿Cuál de estas condiciones incrementa el uso de glucosa en el recién nacido?",
+      "options": [
+        "Ausencia de estrés",
+        "Reposo estable sin enfermedad",
+        "Sepsis",
+        "Alimentación adecuada sin complicaciones"
+      ],
+      "answer": 2,
+      "page": 54,
+      "explanation": "La infección y otros estados de estrés elevan los requerimientos metabólicos."
+    },
+    {
+      "id": "m5-I04",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "¿Cuándo recomienda el módulo una primera valoración de glucosa en neonatos de riesgo?",
+      "options": [
+        "En los primeros 30 minutos posteriores al nacimiento",
+        "Al cumplir una semana",
+        "Siempre tras el alta hospitalaria",
+        "Solo si tienen 6 meses"
+      ],
+      "answer": 0,
+      "page": 54,
+      "explanation": "El monitoreo temprano figura en la sección de glucosa."
+    },
+    {
+      "id": "m5-I05",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "Temblor, irritabilidad y letargia pueden agruparse como ¿qué signos?",
+      "options": [
+        "Datos de deshidratación sin relación",
+        "Neurológicos de hipoglucemia",
+        "Síntomas exclusivos de hiperglucemia",
+        "Hallazgos de piel normales"
+      ],
+      "answer": 1,
+      "page": 55,
+      "explanation": "La tabla 11 ubica esos hallazgos en los signos neurológicos."
+    },
+    {
+      "id": "m5-I06",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "¿Cuál es una manifestación cardiorrespiratoria citada de hipoglucemia?",
+      "options": [
+        "Hipertensión esencial del adulto",
+        "Apnea",
+        "Edema venoso crónico",
+        "Varices"
+      ],
+      "answer": 1,
+      "page": 55,
+      "explanation": "La tabla 11 incluye apnea, depresión respiratoria y taquipnea."
+    },
+    {
+      "id": "m5-I07",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "¿Qué valor de glucosa central relaciona el módulo con hiperglucemia?",
+      "options": [
+        "Siempre 70 mg/dl",
+        "Solo mayor de 400 mg/dl",
+        "Mayor de 120–125 mg/dl, según su definición",
+        "Menor de 20 mg/dl"
+      ],
+      "answer": 2,
+      "page": 55,
+      "explanation": "El texto presenta umbrales centrales y periféricos de hiperglucemia diferenciados."
+    },
+    {
+      "id": "m5-I08",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "Un neonato registra 42 mg/dl en hemoglucotest y será trasladado. ¿Qué prioridad señala el esquema?",
+      "options": [
+        "Valorar e iniciar estabilización de glucosa antes de transportar",
+        "Suspender toda medición posterior",
+        "Esperar a que aparezcan convulsiones",
+        "Ignorar el hallazgo"
+      ],
+      "answer": 0,
+      "page": 56,
+      "explanation": "El manual no recomienda trasladar con glucosa periférica menor de 50 mg/dl sin manejo."
+    },
+    {
+      "id": "m5-I09",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "¿Con qué frecuencia pide reevaluar la hemoglucotest durante el viaje?",
+      "options": [
+        "No volver a medir",
+        "Al menos cada 60 minutos",
+        "Solo al finalizar el mes",
+        "Una vez por semana"
+      ],
+      "answer": 1,
+      "page": 57,
+      "explanation": "La vigilancia durante el traslado incluye medición no menor de una vez por hora."
+    },
+    {
+      "id": "m5-I10",
+      "module": 4,
+      "difficulty": "intermediate",
+      "question": "¿Qué se hace con las mediciones de glucosa obtenidas en tránsito?",
+      "options": [
+        "Se registran en la hoja de transporte",
+        "Se omiten si hay mejoría",
+        "Se descartan por ser provisionales",
+        "Se entregan solo verbalmente al conductor"
+      ],
+      "answer": 0,
+      "page": 57,
+      "explanation": "El módulo indica registrar las mediciones de glucosa durante el traslado."
+    },
+    {
+      "id": "m6-I01",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "Un cuadro clínico infeccioso aparece en las primeras 48 horas de vida. ¿A qué grupo temporal pertenece en el manual?",
+      "options": [
+        "Sepsis descartada por el tiempo",
+        "Sepsis temprana",
+        "Sepsis nosocomial obligatoria",
+        "Sepsis tardía exclusivamente"
+      ],
+      "answer": 1,
+      "page": 59,
+      "explanation": "La sepsis neonatal temprana se presenta en los primeros días de vida."
+    },
+    {
+      "id": "m6-I02",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "¿Qué factor de exposición materna se menciona como riesgo para sepsis neonatal?",
+      "options": [
+        "Grupo sanguíneo A sin otros datos",
+        "Nivel educativo del padre",
+        "Infección del tracto genital materno",
+        "Color de ojos maternos"
+      ],
+      "answer": 2,
+      "page": 59,
+      "explanation": "La tabla 12 menciona microorganismos del tracto genital materno."
+    },
+    {
+      "id": "m6-I03",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "Un recién nacido hospitalizado con catéter y nutrición parenteral acumula ¿qué tipo de factores?",
+      "options": [
+        "Procedimientos invasivos en UCIN",
+        "Exclusivamente factores psicológicos",
+        "Solo factores genéticos",
+        "Signos de normalidad"
+      ],
+      "answer": 0,
+      "page": 60,
+      "explanation": "La tabla 12 identifica catéteres y nutrición parenteral como factores predisponentes."
+    },
+    {
+      "id": "m6-I04",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "¿Cuál de estos es un agente bacteriano nombrado en la tabla etiológica?",
+      "options": [
+        "Virus influenza",
+        "Candida albicans",
+        "Aspergillus",
+        "Escherichia coli"
+      ],
+      "answer": 3,
+      "page": 60,
+      "explanation": "E. coli aparece en el grupo de bacterias en la tabla 13."
+    },
+    {
+      "id": "m6-I05",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "Un neonato séptico manifiesta palidez, pulsos débiles y llenado capilar lento. ¿Qué grupo de signos representa?",
+      "options": [
+        "Cardiocirculatorios",
+        "Oftalmológicos",
+        "Dentales",
+        "Osteoarticulares aislados"
+      ],
+      "answer": 0,
+      "page": 61,
+      "explanation": "La tabla 14 clasifica estos signos como cardiocirculatorios."
+    },
+    {
+      "id": "m6-I06",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "¿Qué manifestación digestiva está descrita en la sepsis neonatal?",
+      "options": [
+        "Contractura del codo",
+        "Distensión abdominal",
+        "Cataratas",
+        "Hipoacusia aislada"
+      ],
+      "answer": 1,
+      "page": 61,
+      "explanation": "La tabla 14 incluye distensión abdominal, vómitos y residuos."
+    },
+    {
+      "id": "m6-I07",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "¿Cuál de los siguientes estudios figura como prueba indirecta de sepsis?",
+      "options": [
+        "Proteína C reactiva",
+        "Audiometría tonal",
+        "Refracción visual",
+        "Radiografía de rodilla"
+      ],
+      "answer": 0,
+      "page": 62,
+      "explanation": "La sección de laboratorio incluye PCR entre pruebas indirectas."
+    },
+    {
+      "id": "m6-I08",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "¿Qué valor de plaquetas aparece como referencia en neonatos de 48 h?",
+      "options": [
+        "500–2 000/mm³",
+        "900 000–1 200 000/mm³",
+        "1 000–3 000/mm³",
+        "150 000–350 000/mm³"
+      ],
+      "answer": 3,
+      "page": 62,
+      "explanation": "La tabla 15 presenta el intervalo plaquetario del hemograma."
+    },
+    {
+      "id": "m6-I09",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "¿Por qué el conteo absoluto de neutrófilos no se interpreta sin considerar la edad del neonato?",
+      "options": [
+        "Porque reemplaza toda valoración clínica",
+        "Porque cambian los rangos con edad gestacional y horas de vida",
+        "Porque depende del tipo de ambulancia",
+        "Porque el valor no tiene utilidad nunca"
+      ],
+      "answer": 1,
+      "page": 65,
+      "explanation": "Las curvas y tabla 16 dependen de edad gestacional y edad posnatal."
+    },
+    {
+      "id": "m6-I10",
+      "module": 5,
+      "difficulty": "intermediate",
+      "question": "¿Qué conjunto de estudios incluye el apartado de estabilización previa al transporte por sepsis?",
+      "options": [
+        "Hemograma, hemocultivo y PCR según valoración",
+        "Solo radiografía dental",
+        "Solo glucosa sin otros exámenes",
+        "Exclusivamente electrocardiograma"
+      ],
+      "answer": 0,
+      "page": 68,
+      "explanation": "La sección enumera hemograma, cultivos y otros exámenes disponibles."
+    },
+    {
+      "id": "m7-I01",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "Una exteriorización intestinal lateral al ombligo sin cobertura membranosa sugiere ¿qué diagnóstico del manual?",
+      "options": [
+        "Onfalocele",
+        "Atresia esofágica",
+        "Mielomeningocele",
+        "Gastrosquisis"
+      ],
+      "answer": 3,
+      "page": 72,
+      "explanation": "El texto define la gastrosquisis como defecto de pared generalmente a la derecha del cordón."
+    },
+    {
+      "id": "m7-I02",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "Una malformación de línea media con saco que cubre vísceras corresponde a ¿qué diagnóstico?",
+      "options": [
+        "Gastrosquisis",
+        "Neumotórax",
+        "Onfalocele",
+        "Sepsis tardía"
+      ],
+      "answer": 2,
+      "page": 73,
+      "explanation": "El onfalocele presenta contenido abdominal cubierto por membranas."
+    },
+    {
+      "id": "m7-I03",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "¿Cuál es el objetivo de cubrir vísceras expuestas durante el transporte de una gastrosquisis?",
+      "options": [
+        "Reducir pérdidas de calor y líquidos y proteger el contenido",
+        "Mantenerlas deliberadamente descubiertas",
+        "Aumentar evaporación",
+        "Ejercer presión excesiva sobre ellas"
+      ],
+      "answer": 0,
+      "page": 73,
+      "explanation": "El manejo del manual prioriza protección térmica y de superficies expuestas."
+    },
+    {
+      "id": "m7-I04",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "Una atresia esofágica se sospecha ante salivación abundante y dificultad para alimentar. ¿Qué se debe prevenir?",
+      "options": [
+        "Exposición a la luz",
+        "Hipoacusia conductiva",
+        "Únicamente pérdida de audición",
+        "Aspiración de secreciones"
+      ],
+      "answer": 3,
+      "page": 74,
+      "explanation": "El módulo describe el manejo de secreciones y la prevención de aspiración."
+    },
+    {
+      "id": "m7-I05",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "En un recién nacido con atresia esofágica, ¿qué práctica alimentaria debe evitarse durante estabilización?",
+      "options": [
+        "Ofrecer alimentación oral",
+        "Vigilar respiración",
+        "Coordinar referencia",
+        "Controlar secreciones"
+      ],
+      "answer": 0,
+      "page": 75,
+      "explanation": "El manejo destaca evitar alimentación oral y prevenir broncoaspiración."
+    },
+    {
+      "id": "m7-I06",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "Un saco de mielomeningocele íntegro exige ¿qué medida básica?",
+      "options": [
+        "Secado con fricción fuerte",
+        "Masaje vigoroso sobre el defecto",
+        "Protección estéril y evitar traumatismos de la lesión",
+        "Compresión directa continua"
+      ],
+      "answer": 2,
+      "page": 76,
+      "explanation": "Se describe proteger el saco y evitar lesión o infección."
+    },
+    {
+      "id": "m7-I07",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "Para trasladar un neonato con mielomeningocele, ¿qué posición indica el manual?",
+      "options": [
+        "Decúbito ventral",
+        "Sentado sin apoyo",
+        "Boca arriba presionando la lesión",
+        "Bipedestación"
+      ],
+      "answer": 0,
+      "page": 76,
+      "explanation": "El texto recomienda decúbito ventral para evitar presión sobre el defecto."
+    },
+    {
+      "id": "m7-I08",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "¿Por qué se enfatiza el cuidado térmico del prematuro extremo?",
+      "options": [
+        "Porque siempre regula mejor la temperatura",
+        "Porque no necesita incubadora",
+        "Porque nunca presenta hipotermia",
+        "Por su mayor susceptibilidad a pérdidas de calor"
+      ],
+      "answer": 3,
+      "page": 77,
+      "explanation": "El módulo VII vincula inmadurez con riesgo térmico durante transporte."
+    },
+    {
+      "id": "m7-I09",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "¿Cuál de los siguientes signos está listado como sospecha de cardiopatía congénita?",
+      "options": [
+        "Únicamente estornudos aislados",
+        "Sarpullido pasajero sin otros signos",
+        "Cianosis central persistente pese a oxígeno",
+        "Llanto fuerte sin dificultad"
+      ],
+      "answer": 2,
+      "page": 79,
+      "explanation": "La sección enumera cianosis central que no mejora con oxígeno entre signos de alerta."
+    },
+    {
+      "id": "m7-I10",
+      "module": 6,
+      "difficulty": "intermediate",
+      "question": "¿Qué monitorización se prioriza al traslado de cardiopatía congénita?",
+      "options": [
+        "Solo color del uniforme",
+        "Solo crecimiento de uñas",
+        "Saturación y frecuencia cardíaca junto con perfusión",
+        "Únicamente circunferencia del brazo"
+      ],
+      "answer": 2,
+      "page": 79,
+      "explanation": "El módulo VII insiste en vigilancia cardiovascular y oxigenación durante el traslado."
+    },
+    {
+      "id": "m8-I01",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "Una familia recibe la noticia de un traslado inesperado y expresa miedo. ¿Qué interpretación concuerda con el módulo VIII?",
+      "options": [
+        "Se debe impedir cualquier pregunta",
+        "Es motivo automático para retirar información",
+        "Demuestra necesariamente rechazo de tratamiento",
+        "Es una reacción emocional posible que requiere comprensión"
+      ],
+      "answer": 3,
+      "page": 83,
+      "explanation": "El texto reconoce temor, culpa, negación y otras reacciones frente a enfermedad neonatal."
+    },
+    {
+      "id": "m8-I02",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "¿Qué condición favorece la atención emocional adecuada?",
+      "options": [
+        "Hablar sin escuchar",
+        "Ignorar la presencia de la familia",
+        "Personal capacitado y empático",
+        "Limitar toda comunicación a trámites"
+      ],
+      "answer": 2,
+      "page": 83,
+      "explanation": "El manual menciona la preparación del personal y el apoyo a familias."
+    },
+    {
+      "id": "m8-I03",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "¿Qué elemento se incluye entre factores de estrés familiar?",
+      "options": [
+        "Separación prolongada del recién nacido",
+        "Acompañamiento respetuoso",
+        "Información clara y oportuna",
+        "Comunicación transparente y constante"
+      ],
+      "answer": 0,
+      "page": 83,
+      "explanation": "La separación aparece entre las situaciones que generan estrés en padres."
+    },
+    {
+      "id": "m8-I04",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "La familia solicita conocer el estado del neonato. ¿Qué principio obliga a ofrecer información útil y veraz?",
+      "options": [
+        "Reemplazar siempre a los padres en decisiones",
+        "Suspender toda comunicación",
+        "Autonomía e información para decisiones",
+        "Ocultar deliberadamente el diagnóstico"
+      ],
+      "answer": 2,
+      "page": 84,
+      "explanation": "La ética descrita exige respetar autonomía e informar a responsables."
+    },
+    {
+      "id": "m8-I05",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "¿Qué principio ético busca evitar daños innecesarios?",
+      "options": [
+        "Conveniencia administrativa",
+        "Secreto absoluto frente a los tutores",
+        "Velocidad sin evaluación",
+        "No maleficencia"
+      ],
+      "answer": 3,
+      "page": 84,
+      "explanation": "El cuadro del módulo VIII incluye no maleficencia entre principios básicos."
+    },
+    {
+      "id": "m8-I06",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "¿Qué principio promueve un trato justo y equitativo al neonato?",
+      "options": [
+        "Preferencia personal del profesional",
+        "Negación",
+        "Burocracia",
+        "Justicia"
+      ],
+      "answer": 3,
+      "page": 84,
+      "explanation": "Justicia es uno de los principios comunes citados."
+    },
+    {
+      "id": "m8-I07",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "¿Cuál de estas acciones sigue la recomendación previa al traslado?",
+      "options": [
+        "Ocultar el hospital de destino",
+        "Evitar que los familiares formulen preguntas",
+        "Dar información contradictoria",
+        "Explicar la necesidad del traslado en lenguaje comprensible"
+      ],
+      "answer": 3,
+      "page": 84,
+      "explanation": "El módulo recomienda informar el estado y explicar el proceso y motivos del traslado."
+    },
+    {
+      "id": "m8-I08",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "Si la madre no puede ir en la ambulancia, ¿qué recomienda el manual?",
+      "options": [
+        "Impedir saber el destino",
+        "Eliminar todo contacto con la familia",
+        "Facilitar acompañamiento familiar cuando sea posible y acordar información",
+        "No indicar quién recibirá al bebé"
+      ],
+      "answer": 2,
+      "page": 85,
+      "explanation": "Las recomendaciones incluyen acompañamiento y comunicación con los padres."
+    },
+    {
+      "id": "m8-I09",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "Durante complicaciones inesperadas, ¿qué medida ética es adecuada?",
+      "options": [
+        "Esconder cualquier cambio",
+        "Tomar decisiones sin documentación",
+        "Mantener comunicación veraz con la familia y el receptor",
+        "Evitar la coordinación"
+      ],
+      "answer": 2,
+      "page": 85,
+      "explanation": "El módulo solicita información honesta y coordinación ante cambios."
+    },
+    {
+      "id": "m8-I10",
+      "module": 7,
+      "difficulty": "intermediate",
+      "question": "¿Qué ejemplo muestra cuidados gentiles en transporte?",
+      "options": [
+        "Evitar medidas de confort",
+        "Suspender trato digno por la urgencia",
+        "Tratar al paciente como equipo inanimado",
+        "Proteger confort y dignidad durante maniobras y vigilancia"
+      ],
+      "answer": 3,
+      "page": 85,
+      "explanation": "La sección final insiste en cuidados gentiles al neonato durante el traslado."
+    },
+    {
+      "id": "m1-A07",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "En sala de expulsión se solicita traslado a cuidados intermedios, pero el brazalete y el expediente difieren. ¿Cuál es la mejor secuencia según TESALVA?",
+      "options": [
+        "Enviar al bebé y corregir al llegar",
+        "Detener la preparación documental, verificar identidad y comunicar la discrepancia antes de continuar",
+        "Usar solo el nombre verbal de la madre",
+        "Quitar el brazalete para evitar confusión"
+      ],
+      "answer": 1,
+      "page": 14,
+      "explanation": "El módulo I exige coincidencia entre brazalete e información clínica al ingresar a otro servicio."
+    },
+    {
+      "id": "m1-A08",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "El hospital tiene incubadora y ambulancia, pero no se confirmó aceptación ni se completó la hoja TESALVA. ¿Qué falta?",
+      "options": [
+        "Reducir el personal de apoyo",
+        "Únicamente encender sirena",
+        "Coordinación receptora y documentación para activar un traslado seguro",
+        "Esperar sin valorar al neonato"
+      ],
+      "answer": 2,
+      "page": 16,
+      "explanation": "La activación combina disponibilidad técnica, comunicación y registros."
+    },
+    {
+      "id": "m1-A09",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "En ruta la batería de incubadora falla y la bombona de oxígeno está casi vacía. ¿Qué etapa preventiva no se cumplió?",
+      "options": [
+        "La medición de peso de la madre",
+        "Solamente autorización del estacionamiento",
+        "Clasificación del traslado por distancia",
+        "Verificación integral de incubadora, baterías, oxígeno y equipo antes de salir"
+      ],
+      "answer": 3,
+      "page": 17,
+      "explanation": "El personal de enfermería/TEM verifica energía, temperatura y oxígeno del equipo previo al transporte."
+    },
+    {
+      "id": "m1-A10",
+      "module": 0,
+      "difficulty": "advanced",
+      "question": "Un equipo pretende salir con un neonato críticamente inestable porque el traslado es urgente. ¿Qué principio del manual contradice?",
+      "options": [
+        "Estabilizar y coordinar los cuidados antes de iniciar el transporte",
+        "Registrar datos en hoja de traslado",
+        "Comunicar al receptor",
+        "Identificar al equipo responsable"
+      ],
+      "answer": 0,
+      "page": 19,
+      "explanation": "El texto advierte contra el traslado de un neonato inestable y prioriza estabilización previa."
+    },
+    {
+      "id": "m2-A07",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Un prematuro húmedo se coloca desnudo en una superficie fría junto a una ventana. ¿Qué mecanismos de pérdida térmica concurren?",
+      "options": [
+        "Evaporación, conducción y radiación",
+        "Solo radiación",
+        "Solo convección",
+        "Ninguno, porque está dentro de una sala"
+      ],
+      "answer": 0,
+      "page": 24,
+      "explanation": "El líquido evapora calor; la mesa retira calor por contacto y la ventana fría por radiación."
+    },
+    {
+      "id": "m2-A08",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Se traslada un neonato de 2700 g con incubadora preparada a 36.5 °C. Según la tabla 2, ¿qué ajuste se deduce para su categoría?",
+      "options": [
+        "La tabla prescribe siempre 39 °C",
+        "La tabla indica 33–34 °C para mayores de 2500 g, por lo que el valor programado no coincide",
+        "La tabla indica 36–37 °C para ese peso",
+        "No existe diferenciación por peso"
+      ],
+      "answer": 1,
+      "page": 26,
+      "explanation": "La tabla 2 distingue menor de 1500 g, 1500–2500 g y mayor de 2500 g."
+    },
+    {
+      "id": "m2-A09",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Durante recalentamiento aparecen arritmia, apnea y mayor dificultad respiratoria. ¿Qué interpretación es coherente?",
+      "options": [
+        "Debe omitirse la monitorización",
+        "Son siempre signos de calentamiento exitoso",
+        "Son signos de deterioro que requieren reevaluación del recalentamiento",
+        "Solo importan si hay fiebre"
+      ],
+      "answer": 2,
+      "page": 27,
+      "explanation": "La página 27 enumera arritmia, apnea y dificultad respiratoria entre signos de alarma."
+    },
+    {
+      "id": "m2-A10",
+      "module": 1,
+      "difficulty": "advanced",
+      "question": "Durante el trayecto se mide 36.2 °C tras una lectura previa de 36.7 °C. ¿Qué combinación sigue la guía?",
+      "options": [
+        "Registrar descenso, comprobar incubadora y condiciones ambientales y continuar vigilancia",
+        "Tomar temperatura únicamente al alta",
+        "Desconectar incubadora y no documentar",
+        "Suponer que no existe riesgo de hipotermia"
+      ],
+      "answer": 0,
+      "page": 28,
+      "explanation": "El resumen del módulo recomienda verificar temperatura y funcionamiento térmico de forma periódica."
+    },
+    {
+      "id": "m3-A07",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "Un neonato tiene pulsos periféricos débiles, llenado capilar de 5 segundos y piel fría. ¿Qué integración clínica propone el módulo?",
+      "options": [
+        "Diagnóstico concluyente de sepsis sin más datos",
+        "Hallazgos normales en todo neonato",
+        "Exclusivamente enfermedad renal",
+        "Signos de perfusión periférica comprometida compatibles con choque"
+      ],
+      "answer": 3,
+      "page": 32,
+      "explanation": "La tabla 5 reúne estos signos como alteraciones de perfusión."
+    },
+    {
+      "id": "m3-A08",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "Un neonato a término de 3 días y 2800 g tiene TAM de 38 mmHg. ¿Cómo se compara con la tabla 6?",
+      "options": [
+        "Está por encima del umbral de 65 mmHg",
+        "Está por debajo del umbral de 40 mmHg señalado para 1–3 días y más de 2500 g",
+        "El umbral es de 20 mmHg",
+        "No puede compararse porque falta la talla"
+      ],
+      "answer": 1,
+      "page": 33,
+      "explanation": "La tabla 6 indica TAM menor de 40 mmHg para la categoría de peso y edad del caso."
+    },
+    {
+      "id": "m3-A09",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "Tras el primer bolo, el neonato mantiene hipotensión, perfusión lenta y pulsos débiles. ¿Qué decisión refleja la lógica del protocolo?",
+      "options": [
+        "Reevaluar la respuesta clínica y considerar los siguientes pasos según persistencia de mala perfusión",
+        "Trasladar sin documentar intervenciones",
+        "Dar por resuelto el choque sin examen",
+        "Suspender toda vigilancia"
+      ],
+      "answer": 0,
+      "page": 35,
+      "explanation": "La página 35 plantea reevaluaciones seriadas y manejo en función de la respuesta."
+    },
+    {
+      "id": "m3-A10",
+      "module": 2,
+      "difficulty": "advanced",
+      "question": "Se preparó traslado con perfusión mejorada, pero no se registró llenado capilar en la salida ni durante el camino. ¿Qué fallo detectas?",
+      "options": [
+        "Incompletitud de monitorización hemodinámica y del registro del traslado",
+        "Pérdida del consentimiento para fotos",
+        "Ausencia de una radiografía dental",
+        "Únicamente fallo de aseo del vehículo"
+      ],
+      "answer": 0,
+      "page": 37,
+      "explanation": "El módulo requiere frecuencia cardíaca, presión arterial y llenado capilar antes y durante el viaje."
+    },
+    {
+      "id": "m4-A07",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "Una gasometría arterial presenta pH 7.27, pCO₂ 55 mmHg y pO₂ 40 mmHg. ¿Qué lectura comparativa apoya la tabla 8?",
+      "options": [
+        "Únicamente el pH es normal",
+        "Los tres parámetros quedan fuera de los intervalos arteriales de referencia",
+        "No puede compararse la pCO₂ con la tabla",
+        "Los tres se encuentran en valores normales"
+      ],
+      "answer": 1,
+      "page": 42,
+      "explanation": "La tabla 8 recoge pH 7.30–7.45, pCO₂ 35–45 y pO₂ 50–80 mmHg."
+    },
+    {
+      "id": "m4-A08",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "Tras valoración, un neonato con Silverman 5 persiste con baja saturación bajo campana cefálica. ¿Qué escalamiento contempla el manual?",
+      "options": [
+        "Solo ofrecer alimentación oral",
+        "Considerar CPAP nasal y reevaluación de respuesta",
+        "Retirar toda monitorización",
+        "Alta sin intervención"
+      ],
+      "answer": 1,
+      "page": 45,
+      "explanation": "El protocolo sitúa Silverman 4–6 en dificultad moderada y considera CPAP."
+    },
+    {
+      "id": "m4-A09",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "Un neonato con Silverman 7 no mejora bajo CPAP y presenta desaturación. ¿Qué escenario describe el manual?",
+      "options": [
+        "Únicamente hipoglucemia no relacionada",
+        "Necesidad de suspender oxígeno sin valoración",
+        "Normalidad respiratoria",
+        "Dificultad severa para la que se plantea intubación y soporte ventilatorio"
+      ],
+      "answer": 3,
+      "page": 46,
+      "explanation": "El algoritmo considera Silverman mayor de 6 y fracaso de CPAP como criterios de severidad."
+    },
+    {
+      "id": "m4-A10",
+      "module": 3,
+      "difficulty": "advanced",
+      "question": "En transporte de un paciente intubado desciende súbitamente la saturación. ¿Qué evaluación estructurada es pertinente?",
+      "options": [
+        "Revisar solo la dieta",
+        "Omitir la evaluación de tubo y ventilador",
+        "Cambiar exclusivamente el destino",
+        "Comprobar DOPE: desplazamiento, obstrucción, neumotórax y equipo"
+      ],
+      "answer": 3,
+      "page": 48,
+      "explanation": "La página 48 resume las causas de deterioro asociadas al tubo y equipo con DOPE."
+    },
+    {
+      "id": "m5-A07",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Se prepara traslado de un prematuro con sepsis y se omitió medir glucosa por ausencia de convulsiones. ¿Qué razonamiento corrige el error?",
+      "options": [
+        "Los factores de riesgo justifican vigilancia aun sin síntomas",
+        "Sin convulsiones la hipoglucemia es imposible",
+        "Solo se mide en mayores de un mes",
+        "La sepsis protege contra hipoglucemia"
+      ],
+      "answer": 0,
+      "page": 54,
+      "explanation": "La sección de monitoreo exige evaluación en neonatos vulnerables, incluidos enfermos y prematuros."
+    },
+    {
+      "id": "m5-A08",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Un neonato presenta letargia y apnea con glucosa periférica de 43 mg/dl. ¿Qué interpretación integra tabla 11 y vigilancia?",
+      "options": [
+        "Valor periférico que no amerita vigilancia",
+        "Lectura de hiperglucemia severa",
+        "Manifestaciones compatibles con hipoglucemia y lectura por debajo del umbral de transporte",
+        "Síntomas que descartan alteración de glucosa"
+      ],
+      "answer": 2,
+      "page": 55,
+      "explanation": "La tabla 11 incluye manifestaciones neurológicas y respiratorias, y el resumen fija 50 mg/dl."
+    },
+    {
+      "id": "m5-A09",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Se administra una intervención por glucosa baja, pero el hemoglucotest permanece en 38 mg/dl. ¿Qué exige el seguimiento del módulo?",
+      "options": [
+        "Suspender toda comunicación",
+        "Reevaluar, repetir medición y coordinar manejo antes de trasladar",
+        "Esperar al alta sin medir",
+        "Considerar el valor normal por haber intervenido"
+      ],
+      "answer": 1,
+      "page": 56,
+      "explanation": "El protocolo del módulo V exige controles sucesivos y coordinación por persistencia del valor bajo."
+    },
+    {
+      "id": "m5-A10",
+      "module": 4,
+      "difficulty": "advanced",
+      "question": "Un equipo encuentra 160 mg/dl en glucosa periférica al comenzar el traslado. ¿Qué paso indicado por el manual corresponde?",
+      "options": [
+        "Ignorar el valor por completo",
+        "Administrar oralmente cualquier bebida sin evaluación",
+        "Dar de alta sin avisar",
+        "Comunicar el resultado al hospital receptor para recibir indicaciones"
+      ],
+      "answer": 3,
+      "page": 57,
+      "explanation": "El resumen pide contactar al hospital receptor si supera 150 mg/dl."
+    },
+    {
+      "id": "m6-A07",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "Un hemograma tiene 10 000 leucocitos, neutrófilos 60 %, eosinófilos 1 % y bandas 7 %. ¿Cuál es el recuento absoluto de neutrófilos aproximado si se suman segmentados y bandas?",
+      "options": [
+        "6700/mm³",
+        "17 000/mm³",
+        "670/mm³",
+        "600/mm³"
+      ],
+      "answer": 0,
+      "page": 64,
+      "explanation": "Según el método de las páginas 64–65: 10 000 × (60+7)/100 = 6700/mm³."
+    },
+    {
+      "id": "m6-A08",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "El reporte registra neutrófilos segmentados 60 %, bandas 10 % y metamielocitos 5 %. ¿Cuál es el índice I/T aproximado?",
+      "options": [
+        "0.20",
+        "0.90",
+        "0.75",
+        "0.02"
+      ],
+      "answer": 0,
+      "page": 66,
+      "explanation": "El manual calcula inmaduros/(segmentados + inmaduros): (10+5)/(60+10+5)=0.20."
+    },
+    {
+      "id": "m6-A09",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "Un prematuro de 27 semanas a las 24 horas presenta CAN de 450/mm³. ¿Cómo lo clasifica la tabla 16?",
+      "options": [
+        "Neutropenia por estar por debajo de 500/mm³",
+        "Normal porque supera 100/mm³",
+        "Neutrofilia por superar 400/mm³",
+        "No es posible usar la tabla por edad"
+      ],
+      "answer": 0,
+      "page": 66,
+      "explanation": "La tabla 16 muestra umbral CAN menor de 500 para menores de 28 semanas."
+    },
+    {
+      "id": "m6-A10",
+      "module": 5,
+      "difficulty": "advanced",
+      "question": "Un neonato con factores de riesgo para sepsis está clínicamente estable en la salida. ¿Qué plan es coherente durante el traslado?",
+      "options": [
+        "No comunicar ninguna variación al receptor",
+        "Desconectar monitor y omitir notas",
+        "Vigilar signos de deterioro, mantener monitorización y registrar cambios",
+        "Suprimir seguimiento de temperatura"
+      ],
+      "answer": 2,
+      "page": 69,
+      "explanation": "El módulo VI enfatiza monitorización, registro y comunicación del estado clínico."
+    },
+    {
+      "id": "m7-A07",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "Un neonato con gastrosquisis tiene asas descubiertas y empieza a enfriarse antes de salir. ¿Qué acciones del módulo VII se complementan?",
+      "options": [
+        "Ejercer presión directa para reducirlas sin valoración",
+        "Dejar las asas expuestas para inspección visual continua",
+        "Posponer toda regulación térmica",
+        "Proteger las asas y minimizar pérdidas térmicas mientras se organiza transporte"
+      ],
+      "answer": 3,
+      "page": 73,
+      "explanation": "El protocolo combina protección intestinal, prevención de hipotermia y estabilización."
+    },
+    {
+      "id": "m7-A08",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "Un neonato con sospecha de atresia esofágica presenta secreciones orales persistentes. ¿Qué preparación integra mejor el traslado?",
+      "options": [
+        "Probar alimentación por boca",
+        "Eliminar vigilancia respiratoria",
+        "Acostarlo sin valorar secreciones",
+        "Mantener manejo/aspiración de secreciones y evitar alimentación oral"
+      ],
+      "answer": 3,
+      "page": 75,
+      "explanation": "La sección recomienda aspiración de secreciones y evitar aspiración durante referencia."
+    },
+    {
+      "id": "m7-A09",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "Un paciente con mielomeningocele tiene saco intacto y requiere incubadora. ¿Qué detalle condiciona su colocación?",
+      "options": [
+        "Aplicación de calor directamente sobre la lesión",
+        "Colocación supina presionando defecto",
+        "Retiro de cobertura protectora",
+        "Posición ventral y protección del saco sin presión"
+      ],
+      "answer": 3,
+      "page": 76,
+      "explanation": "El módulo indica decúbito ventral y protección estéril de la lesión."
+    },
+    {
+      "id": "m7-A10",
+      "module": 6,
+      "difficulty": "advanced",
+      "question": "Un neonato con soplo, saturación baja y cianosis central persistente pese a oxígeno requiere referencia. ¿Qué enfoque se sustenta?",
+      "options": [
+        "Excluir examen cardiovascular porque hay oxígeno",
+        "Diagnóstico automático de infección urinaria",
+        "Esperar sin comunicar",
+        "Sospecha de cardiopatía congénita y monitorización cardiorrespiratoria coordinada"
+      ],
+      "answer": 3,
+      "page": 79,
+      "explanation": "La sección destaca la cianosis persistente y el seguimiento cardiocirculatorio."
+    },
+    {
+      "id": "m8-A07",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "En una emergencia, un equipo quiere omitir la explicación a padres porque el traslado es urgente. ¿Qué integración ética corresponde?",
+      "options": [
+        "Sustituir la autonomía por conveniencia",
+        "No comunicar nunca en emergencias",
+        "Solicitar decisiones sin explicar nada",
+        "Informar con claridad en la medida posible sin demorar la atención indispensable"
+      ],
+      "answer": 3,
+      "page": 84,
+      "explanation": "El módulo pide explicar estado y traslado, respetando la atención oportuna y derechos familiares."
+    },
+    {
+      "id": "m8-A08",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "Los padres expresan desacuerdo y el equipo considera riesgoso retrasar una intervención necesaria. ¿Qué enfoque propone el módulo?",
+      "options": [
+        "Tomar decisiones basadas en preferencias personales",
+        "Evitar documentar el desacuerdo",
+        "Desestimar todos los principios",
+        "Ponderar beneficencia, no maleficencia, autonomía y deber de atención"
+      ],
+      "answer": 3,
+      "page": 84,
+      "explanation": "El módulo presenta los principios bioéticos como guía para conflictos clínicos."
+    },
+    {
+      "id": "m8-A09",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "Durante el traslado cambia el estado del bebé y familiares preguntan por nuevas maniobras. ¿Qué forma de comunicación es adecuada?",
+      "options": [
+        "Asegurar un resultado sin fundamentos",
+        "Evitar registros e información",
+        "Negar la existencia de complicaciones",
+        "Explicación honesta de cambios y acciones, coordinada con responsables clínicos"
+      ],
+      "answer": 3,
+      "page": 85,
+      "explanation": "La guía promueve información veraz ante variaciones y coordinación responsable."
+    },
+    {
+      "id": "m8-A10",
+      "module": 7,
+      "difficulty": "advanced",
+      "question": "Un traslado cumple las técnicas, pero no protege la comodidad ni dignidad neonatal. ¿Qué dimensión sigue faltando?",
+      "options": [
+        "La omisión de la familia",
+        "Cuidados gentiles y apoyo humano como parte de atención integral",
+        "Solo una hoja administrativa adicional",
+        "La eliminación del consentimiento"
+      ],
+      "answer": 1,
+      "page": 85,
+      "explanation": "El módulo VIII afirma que la atención integra cuidados técnicos, emocionales y trato digno."
+    }
+  ]
+};
